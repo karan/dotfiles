@@ -27,5 +27,11 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Print a tree representation of the current folder
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
+# add all changes from working tree to stage, and commit them with message
+function g() {
+    git add -A;
+    git commit -m "$1";
+}
+
 # git init also created my gitignore file
 alias "giti"="git init && curl https://gist.github.com/thekarangoel/7540861/raw/81825d58c7c597865861e7e7828651fdfc5d1867/gitignore > .gitignore"

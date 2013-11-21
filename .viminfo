@@ -14,8 +14,8 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
 :Wq
+:wq
 :wq!
 :q!
 :w
@@ -23,11 +23,11 @@ $
 :.!
 
 # Search String History (newest to oldest):
+? \s\+$
 ?/Making sure the required argument was passed.
 ?/bin/bash
 ?/The orginal version is saved in .bash_profile.pysave
 ?/Setting PATH for Python 2.7
-? \s\+$
 ?/wwis-dubc1-vip60.adobe.com
 ?/wip4.adobe.com
 ?/wip3.adobe.com
@@ -88,20 +88,28 @@ $
 # Registers:
 
 # File marks:
-'0  28  66  ~/.bash_profile
-'1  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
-'2  31  133  ~/.bash_profile
-'3  17  33  ~/.bash_profile
-'4  5  13  ~/.gitignore
-'5  1  0  ~/.bashrc
-'6  7  8  ~/.gitignore
-'7  4  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
-'8  1  0  ~/Desktop/Dropbox/Codebase/General/startbootstrap/.git/MERGE_MSG
-'9  1  0  ~/Desktop/Dropbox/Codebase/Python/TPB/.git/COMMIT_EDITMSG
+'0  32  4  ~/.bash_profile
+'1  31  9  ~/.bash_profile
+'2  33  22  ~/.bash_profile
+'3  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
+'4  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
+'5  9  8  ~/Desktop/Projects-Solutions/.git/config
+'6  28  66  ~/.bash_profile
+'7  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
+'8  37  133  ~/.bash_profile
+'9  17  33  ~/.bash_profile
 
 # Jumplist (newest first):
+-'  32  4  ~/.bash_profile
+-'  31  9  ~/.bash_profile
+-'  33  22  ~/.bash_profile
 -'  28  66  ~/.bash_profile
--'  31  133  ~/.bash_profile
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
+-'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
+-'  9  8  ~/Desktop/Projects-Solutions/.git/config
+-'  1  0  ~/Desktop/Projects-Solutions/.git/config
+-'  37  133  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
 -'  17  33  ~/.bash_profile
 -'  5  13  ~/.gitignore
@@ -119,10 +127,10 @@ $
 -'  1  8  ~/Desktop/Dropbox/Stuff/Admin/goel.im/.gitignore
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
 -'  1  0  ~/.bash_profile
--'  47  33  ~/.bash_profile
--'  89  15  ~/.bash_profile
--'  86  33  ~/.bash_profile
--'  65  7  ~/.bash_profile
+-'  53  33  ~/.bash_profile
+-'  95  15  ~/.bash_profile
+-'  92  33  ~/.bash_profile
+-'  71  7  ~/.bash_profile
 -'  11  35  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  4  6  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  2  0  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
@@ -131,7 +139,7 @@ $
 -'  14  21  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  7  62  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
 -'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
--'  60  70  ~/.bash_profile
+-'  66  70  ~/.bash_profile
 -'  24  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  25  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
@@ -190,44 +198,53 @@ $
 -'  262  6  ~/.vimrc
 -'  394  10  ~/.vimrc
 -'  12  6  ~/Desktop/Meetup 1/sample.py
--'  1  0  ~/Desktop/Meetup 1/sample.py
--'  9  22  ~/helloworld.py
--'  1  0  ~/helloworld.py
--'  1  0  ~/.bash_
--'  1  0  ~/.bash_
--'  24  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
--'  25  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 
 # Buffer list:
-%~/.bash_profile	28	66
+%~/.bash_profile	32	4
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_profile
-	"	28	66
-	^	28	67
-	.	28	66
-	+	60	72
-	+	61	0
-	+	89	41
+	"	32	4
+	^	31	10
+	.	31	10
+	+	66	72
+	+	67	0
+	+	95	41
 	+	1	2
-	+	61	0
-	+	63	31
-	+	64	38
-	+	65	32
-	+	64	41
-	+	63	12
-	+	65	36
-	+	86	33
-	+	89	16
-	+	47	33
+	+	67	0
+	+	69	31
+	+	70	38
+	+	71	32
+	+	70	41
+	+	69	12
+	+	71	36
+	+	92	33
+	+	95	16
+	+	53	33
 	+	22	33
-	+	31	10
+	+	37	10
 	+	26	0
 	+	27	0
 	+	24	1
 	+	28	66
+	+	29	0
+	+	34	0
+	+	34	0
+	+	31	10
+
+> ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
+	"	4	0
+	^	4	0
+	.	3	32
+	+	3	32
+	z	4	0
+
+> ~/Desktop/Projects-Solutions/.git/config
+	"	9	8
 
 > ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
 	"	1	0
