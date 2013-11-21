@@ -15,10 +15,10 @@ $
 
 # Command Line History (newest to oldest):
 :wq
+:Wq
 :wq!
 :q!
 :w
-:Wq
 :P
 :.!
 
@@ -88,23 +88,26 @@ $
 # Registers:
 
 # File marks:
-'0  5  13  ~/.gitignore
-'1  1  0  ~/.bashrc
-'2  7  8  ~/.gitignore
+'0  28  66  ~/.bash_profile
+'1  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
+'2  31  133  ~/.bash_profile
 '3  17  33  ~/.bash_profile
-'4  4  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
-'5  1  0  ~/Desktop/Dropbox/Codebase/General/startbootstrap/.git/MERGE_MSG
-'6  1  0  ~/Desktop/Dropbox/Codebase/Python/TPB/.git/COMMIT_EDITMSG
-'7  33  0  ~/Desktop/Dropbox/Codebase/Python/TPB/requirements.txt
-'8  1  0  ~/Desktop/Dropbox/Codebase/Python/TPB/requirements.txt
-'9  42  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
+'4  5  13  ~/.gitignore
+'5  1  0  ~/.bashrc
+'6  7  8  ~/.gitignore
+'7  4  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
+'8  1  0  ~/Desktop/Dropbox/Codebase/General/startbootstrap/.git/MERGE_MSG
+'9  1  0  ~/Desktop/Dropbox/Codebase/Python/TPB/.git/COMMIT_EDITMSG
 
 # Jumplist (newest first):
+-'  28  66  ~/.bash_profile
+-'  31  133  ~/.bash_profile
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
+-'  17  33  ~/.bash_profile
 -'  5  13  ~/.gitignore
 -'  7  8  ~/.gitignore
 -'  1  0  ~/.bashrc
 -'  1  0  ~/.gitignore
--'  17  33  ~/.bash_profile
 -'  22  33  ~/.bash_profile
 -'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
@@ -116,10 +119,10 @@ $
 -'  1  8  ~/Desktop/Dropbox/Stuff/Admin/goel.im/.gitignore
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
 -'  1  0  ~/.bash_profile
--'  41  33  ~/.bash_profile
--'  83  15  ~/.bash_profile
--'  80  33  ~/.bash_profile
--'  59  7  ~/.bash_profile
+-'  47  33  ~/.bash_profile
+-'  89  15  ~/.bash_profile
+-'  86  33  ~/.bash_profile
+-'  65  7  ~/.bash_profile
 -'  11  35  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  4  6  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  2  0  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
@@ -128,7 +131,7 @@ $
 -'  14  21  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  7  62  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
 -'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
--'  54  70  ~/.bash_profile
+-'  60  70  ~/.bash_profile
 -'  24  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  25  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
@@ -195,14 +198,42 @@ $
 -'  24  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  25  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
--'  4  46  ~/Desktop/file_test.py
--'  6  20  ~/Desktop/file_test.py
--'  5  14  ~/Desktop/file_test.py
 
 # Buffer list:
-%~/.gitignore	5	13
+%~/.bash_profile	28	66
 
 # History of marks within files (newest to oldest):
+
+> ~/.bash_profile
+	"	28	66
+	^	28	67
+	.	28	66
+	+	60	72
+	+	61	0
+	+	89	41
+	+	1	2
+	+	61	0
+	+	63	31
+	+	64	38
+	+	65	32
+	+	64	41
+	+	63	12
+	+	65	36
+	+	86	33
+	+	89	16
+	+	47	33
+	+	22	33
+	+	31	10
+	+	26	0
+	+	27	0
+	+	24	1
+	+	28	66
+
+> ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/Desktop/test/.gitignore
+	"	43	0
 
 > ~/.gitignore
 	"	5	13
@@ -215,26 +246,6 @@ $
 
 > ~/.bashrc
 	"	1	0
-
-> ~/.bash_profile
-	"	17	33
-	^	22	34
-	.	22	33
-	+	54	72
-	+	55	0
-	+	83	41
-	+	1	2
-	+	55	0
-	+	57	31
-	+	58	38
-	+	59	32
-	+	58	41
-	+	57	12
-	+	59	36
-	+	80	33
-	+	83	16
-	+	41	33
-	+	22	33
 
 > ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
 	"	4	0

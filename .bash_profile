@@ -21,5 +21,11 @@ alias dropbox="cd ~/Desktop/Dropbox"
 alias codebase="cd ~/Desktop/Dropbox/Codebase"
 alias uw="cd ~/Desktop/Dropbox/UW"
 
-### Added by the Heroku Toolbelt
+# Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Print a tree representation of the current folder
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+# git init also created my gitignore file
+alias "giti"="git init && curl https://gist.github.com/thekarangoel/7540861/raw/81825d58c7c597865861e7e7828651fdfc5d1867/gitignore > .gitignore"
