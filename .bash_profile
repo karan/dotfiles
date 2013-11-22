@@ -13,7 +13,10 @@ export WORKON_HOME=~/Desktop/Dropbox/Codebase/General/envs
 source /usr/local/bin/virtualenvwrapper.sh
 
 #ssh into uw cse servers as me
-alias attu="ssh kgoel@attu.cs.washington.edu"
+alias attu1="ssh kgoel@attu1.cs.washington.edu"
+alias attu2="ssh kgoel@attu2.cs.washington.edu"
+alias attu3="ssh kgoel@attu3.cs.washington.edu"
+alias attu4="ssh kgoel@attu4.cs.washington.edu"
 alias aeb="ssh kgoel@aeb.cs.washington.edu" # probably during dead week?
 
 # cd into most used dirs

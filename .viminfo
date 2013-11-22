@@ -86,37 +86,40 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
+""0	LINE	0
+	alias attu1="ssh kgoel@attu1.cs.washington.edu"
 
 # File marks:
-'0  31  9  ~/.bash_profile
-'1  32  4  ~/.bash_profile
-'2  33  22  ~/.bash_profile
-'3  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
-'4  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
-'5  9  8  ~/Desktop/Projects-Solutions/.git/config
-'6  28  66  ~/.bash_profile
-'7  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
-'8  38  133  ~/.bash_profile
-'9  17  33  ~/.bash_profile
+'0  18  27  ~/.bash_profile
+'1  34  9  ~/.bash_profile
+'2  35  4  ~/.bash_profile
+'3  36  22  ~/.bash_profile
+'4  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
+'5  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
+'6  9  8  ~/Desktop/Projects-Solutions/.git/config
+'7  31  66  ~/.bash_profile
+'8  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
+'9  41  133  ~/.bash_profile
 
 # Jumplist (newest first):
--'  31  9  ~/.bash_profile
--'  32  4  ~/.bash_profile
--'  33  22  ~/.bash_profile
--'  28  66  ~/.bash_profile
+-'  18  27  ~/.bash_profile
+-'  34  9  ~/.bash_profile
+-'  35  4  ~/.bash_profile
+-'  36  22  ~/.bash_profile
+-'  31  66  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
 -'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
 -'  9  8  ~/Desktop/Projects-Solutions/.git/config
 -'  1  0  ~/Desktop/Projects-Solutions/.git/config
--'  38  133  ~/.bash_profile
+-'  41  133  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
--'  17  33  ~/.bash_profile
+-'  19  80  ~/.bash_profile
 -'  5  13  ~/.gitignore
 -'  7  8  ~/.gitignore
 -'  1  0  ~/.bashrc
 -'  1  0  ~/.gitignore
--'  22  33  ~/.bash_profile
+-'  25  33  ~/.bash_profile
 -'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/startbootstrap/.git/MERGE_MSG
@@ -127,10 +130,10 @@ $
 -'  1  8  ~/Desktop/Dropbox/Stuff/Admin/goel.im/.gitignore
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
 -'  1  0  ~/.bash_profile
--'  54  33  ~/.bash_profile
--'  96  15  ~/.bash_profile
--'  93  33  ~/.bash_profile
--'  72  7  ~/.bash_profile
+-'  57  33  ~/.bash_profile
+-'  99  15  ~/.bash_profile
+-'  96  33  ~/.bash_profile
+-'  75  7  ~/.bash_profile
 -'  11  35  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  4  6  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  2  0  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
@@ -139,7 +142,7 @@ $
 -'  14  21  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  7  62  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
 -'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
--'  67  70  ~/.bash_profile
+-'  70  70  ~/.bash_profile
 -'  24  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  25  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
@@ -199,40 +202,50 @@ $
 -'  394  10  ~/.vimrc
 
 # Buffer list:
-%~/.bash_profile	31	9
+%~/.bash_profile	18	27
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_profile
-	"	31	9
-	^	31	10
-	.	34	12
-	+	67	72
-	+	68	0
-	+	96	41
+	"	18	27
+	^	18	28
+	.	18	27
+	+	70	72
+	+	71	0
+	+	99	41
 	+	1	2
-	+	68	0
-	+	70	31
-	+	71	38
-	+	72	32
-	+	71	41
-	+	70	12
-	+	72	36
-	+	93	33
-	+	96	16
-	+	54	33
-	+	22	33
-	+	38	10
-	+	26	0
-	+	27	0
-	+	24	1
-	+	28	66
+	+	71	0
+	+	73	31
+	+	74	38
+	+	75	32
+	+	74	41
+	+	73	12
+	+	75	36
+	+	96	33
+	+	99	16
+	+	57	33
+	+	25	33
+	+	41	10
 	+	29	0
-	+	35	0
-	+	35	0
-	+	31	10
-	+	30	73
-	+	34	12
+	+	30	0
+	+	27	1
+	+	31	66
+	+	32	0
+	+	38	0
+	+	38	0
+	+	34	10
+	+	33	73
+	+	37	12
+	+	16	28
+	+	19	47
+	+	19	0
+	+	18	0
+	+	17	0
+	+	20	0
+	+	19	10
+	+	18	10
+	+	17	27
+	+	18	27
 
 > ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
 	"	1	0
