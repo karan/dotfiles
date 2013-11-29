@@ -15,10 +15,11 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-:Wq
-:wq!
-:q!
 :w
+:Wq
+:q
+:q!
+:wq!
 :P
 :.!
 
@@ -86,33 +87,75 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	alias attu1="ssh kgoel@attu1.cs.washington.edu"
+""1	LINE	0
+	    'optional_requisite': [],
+"-	CHAR	0
+	 
 
 # File marks:
-'0  18  27  ~/.bash_profile
-'1  34  9  ~/.bash_profile
-'2  35  4  ~/.bash_profile
-'3  36  22  ~/.bash_profile
-'4  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
-'5  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
-'6  9  8  ~/Desktop/Projects-Solutions/.git/config
-'7  31  66  ~/.bash_profile
-'8  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
-'9  41  133  ~/.bash_profile
+'0  3  2  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
+'1  6  8  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
+'2  1  22  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/changeme_kgoel.txt
+'3  38  17  ~/.bash_profile
+'4  5  10  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
+'5  4  19  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
+'6  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
+'7  10  51  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
+'8  9  28  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
+'9  3  8  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
 
 # Jumplist (newest first):
+-'  3  2  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
+-'  6  8  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
+-'  1  22  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/changeme_kgoel.txt
+-'  38  17  ~/.bash_profile
+-'  39  25  ~/.bash_profile
+-'  5  10  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
+-'  4  19  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
+-'  10  51  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
+-'  9  28  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
+-'  3  8  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
+-'  34  8  ~/.bash_profile
+-'  1  31  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.git/COMMIT_EDITMSG
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
+-'  40  8  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
+-'  1  8  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/ARCH-251/.gitignore
+-'  9  37  ~/Desktop/Pathify/.git/config
+-'  1  0  ~/Desktop/Pathify/.git/config
+-'  11  52  ~/Desktop/Dropbox/Codebase/Python/Projects/Text/reverse.py
+-'  1  0  ~/Desktop/Dropbox/Codebase/Python/Projects/Text/reverse.py
+-'  44  4  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/.gitignore
+-'  5  30  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/test.txt
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/test.txt
+-'  38  0  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/.gitignore
+-'  50  29  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
+-'  31  39  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
+-'  1  0  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
+-'  37  52  ~/.bash_profile
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/app.db
+-'  36  28  ~/.bash_profile
 -'  18  27  ~/.bash_profile
--'  34  9  ~/.bash_profile
--'  35  4  ~/.bash_profile
--'  36  22  ~/.bash_profile
+-'  3  18  ~/Desktop/test.py
+-'  1  0  ~/Desktop/test.py
+-'  43  9  ~/.bash_profile
+-'  44  4  ~/.bash_profile
+-'  45  22  ~/.bash_profile
 -'  31  66  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
 -'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
 -'  9  8  ~/Desktop/Projects-Solutions/.git/config
 -'  1  0  ~/Desktop/Projects-Solutions/.git/config
--'  41  133  ~/.bash_profile
+-'  50  133  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
 -'  19  80  ~/.bash_profile
 -'  5  13  ~/.gitignore
@@ -130,10 +173,10 @@ $
 -'  1  8  ~/Desktop/Dropbox/Stuff/Admin/goel.im/.gitignore
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
 -'  1  0  ~/.bash_profile
--'  57  33  ~/.bash_profile
--'  99  15  ~/.bash_profile
--'  96  33  ~/.bash_profile
--'  75  7  ~/.bash_profile
+-'  66  33  ~/.bash_profile
+-'  108  15  ~/.bash_profile
+-'  105  33  ~/.bash_profile
+-'  84  7  ~/.bash_profile
 -'  11  35  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  4  6  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  2  0  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
@@ -142,7 +185,7 @@ $
 -'  14  21  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  7  62  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
 -'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
--'  70  70  ~/.bash_profile
+-'  79  70  ~/.bash_profile
 -'  24  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  25  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
@@ -162,80 +205,56 @@ $
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/hn/hn.py
 -'  6  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/sample.py
 -'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/sample.py
--'  8  10  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/helloworld.py
--'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/helloworld.py
--'  12  0  /private/etc/hosts
--'  1  0  /private/etc/hosts
--'  14  0  /private/etc/hosts
--'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/.git/COMMIT_EDITMSG
--'  12  6  ~/Desktop/Meetup 1/sample.py
--'  1  0  ~/Desktop/Meetup 1/sample.py
--'  9  22  ~/helloworld.py
--'  1  0  ~/helloworld.py
--'  1  0  ~/.bash_
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  1  0  ~/.bash_
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  9  22  ~/helloworld.py
--'  1  0  ~/helloworld.py
--'  1  0  ~/.bash_
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  1  0  ~/.bash_
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  394  10  ~/.vimrc
--'  1  0  ~/.vimrc
--'  1  0  ~/.vimrc
--'  48  0  ~/.vimrc
--'  56  0  ~/.vimrc
--'  350  0  ~/.vimrc
--'  262  6  ~/.vimrc
--'  394  10  ~/.vimrc
 
 # Buffer list:
-%~/.bash_profile	18	27
+%~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh	3	2
 
 # History of marks within files (newest to oldest):
 
+> ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
+	"	3	2
+	^	3	3
+	.	3	3
+	+	3	12
+	+	6	8
+	+	3	3
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/changeme_kgoel.txt
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
 > ~/.bash_profile
-	"	18	27
-	^	18	28
-	.	18	27
-	+	70	72
-	+	71	0
-	+	99	41
+	"	38	17
+	^	38	18
+	.	38	18
+	+	79	72
+	+	80	0
+	+	108	41
 	+	1	2
-	+	71	0
-	+	73	31
-	+	74	38
-	+	75	32
-	+	74	41
-	+	73	12
-	+	75	36
-	+	96	33
-	+	99	16
-	+	57	33
+	+	80	0
+	+	82	31
+	+	83	38
+	+	84	32
+	+	83	41
+	+	82	12
+	+	84	36
+	+	105	33
+	+	108	16
+	+	66	33
 	+	25	33
-	+	41	10
+	+	50	10
 	+	29	0
 	+	30	0
 	+	27	1
 	+	31	66
 	+	32	0
-	+	38	0
-	+	38	0
-	+	34	10
-	+	33	73
-	+	37	12
+	+	47	0
+	+	47	0
+	+	43	10
+	+	42	73
+	+	46	12
 	+	16	28
 	+	19	47
 	+	19	0
@@ -246,6 +265,119 @@ $
 	+	18	10
 	+	17	27
 	+	18	27
+	+	32	0
+	+	35	21
+	+	36	28
+	+	41	0
+	+	37	43
+	+	38	0
+	+	37	52
+	+	34	8
+	+	38	34
+	+	39	25
+	+	38	18
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
+	"	5	10
+	^	5	11
+	.	5	10
+	+	4	21
+	+	5	10
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
+	"	10	51
+	^	10	52
+	.	10	51
+	+	10	16
+	+	9	29
+	+	10	51
+	z	10	51
+
+> ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
+	"	3	8
+	^	3	9
+	.	3	8
+	+	3	8
+	z	3	8
+
+> ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.git/COMMIT_EDITMSG
+	"	1	31
+	^	1	32
+	.	1	31
+	+	1	31
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
+	"	40	8
+	^	40	9
+	.	41	0
+	+	41	0
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/ARCH-251/.gitignore
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/Desktop/Pathify/.git/config
+	"	9	37
+	^	9	38
+	.	10	0
+	+	10	0
+
+> ~/Desktop/Dropbox/Codebase/Python/Projects/Text/reverse.py
+	"	11	52
+	^	11	53
+	.	11	52
+	+	8	27
+	+	10	82
+	+	11	38
+	+	8	12
+	+	11	37
+	+	8	24
+	+	9	22
+	+	10	67
+	+	9	27
+	+	11	52
+	z	11	52
+
+> ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/.gitignore
+	"	44	4
+	^	44	5
+	.	44	4
+	+	44	4
+
+> ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/test.txt
+	"	5	30
+	^	5	31
+	.	5	29
+	+	6	0
+	+	1	16
+	+	3	9
+	+	1	5
+	+	5	29
+
+> ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/.gitignore
+	"	38	0
+
+> ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
+	"	50	29
+	^	31	40
+	.	31	39
+	+	31	39
+	z	50	29
+
+> ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/app.db
+	"	1	0
+
+> ~/Desktop/test.py
+	"	3	18
+	^	3	19
+	.	3	18
+	+	3	18
+	z	3	18
 
 > ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
 	"	1	0

@@ -30,6 +30,14 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Print a tree representation of the current folder
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
+# Git aliases
+alias gs="git status"
+alias ga="git add -A"
+alias gc="git commit -m "$1""
+alias gp="git push $1 $2" # gp OR gp [remote] [branch]
+alias gt="git tag "$1""
+alias gtp="git push --tags"
+
 # add all changes from working tree to stage, commit them with message and push them
 function g() {
     git add -A;
