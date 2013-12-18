@@ -18,6 +18,7 @@ alias attu2="ssh kgoel@attu2.cs.washington.edu"
 alias attu3="ssh kgoel@attu3.cs.washington.edu"
 alias attu4="ssh kgoel@attu4.cs.washington.edu"
 alias aeb="ssh kgoel@aeb.cs.washington.edu" # probably during dead week?
+alias abelay="ssh kgoel@abelay.cs.washington.edu"
 
 # cd into most used dirs
 alias dropbox="cd ~/Desktop/Dropbox"
@@ -26,6 +27,9 @@ alias uw="cd ~/Desktop/Dropbox/UW"
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# make a py3 virtual env
+alias mkv3="mkvirtualenv -p /usr/local/bin/python3 $1"
 
 # Print a tree representation of the current folder
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
