@@ -19,6 +19,7 @@ alias attu3="ssh kgoel@attu3.cs.washington.edu"
 alias attu4="ssh kgoel@attu4.cs.washington.edu"
 alias aeb="ssh kgoel@aeb.cs.washington.edu" # probably during dead week?
 alias abelay="ssh kgoel@abelay.cs.washington.edu"
+alias semanti="ssh kgoel@semanti.cs.washington.edu"
 
 # cd into most used dirs
 alias dropbox="cd ~/Desktop/Dropbox"

@@ -15,10 +15,10 @@ $
 
 # Command Line History (newest to oldest):
 :wq
+:q!
 :Wq
 :w
 :q
-:q!
 :wq!
 :P
 :.!
@@ -89,39 +89,49 @@ $
 
 # Registers:
 ""0	LINE	0
-	alias attu4="ssh kgoel@attu4.cs.washington.edu"
+	alias abelay="ssh kgoel@abelay.cs.washington.edu"
 "1	LINE	0
 	    'optional_requisite': [],
 "-	CHAR	0
 	 
 
 # File marks:
-'0  21  29  ~/.bash_profile
-'1  3  11  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
-'2  1  0  ~/Desktop/Dropbox/Codebase/General/envs/TPB/TPB/.git/MERGE_MSG
-'3  4  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
-'4  1  0  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
-'5  59  27  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
-'6  32  52  ~/.bash_profile
-'7  1  8  ~/Desktop/Dropbox/UW/Resume and Cover/Resume/.gitignore
-'8  60  8  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
-'9  42  18  ~/.bash_profile
+'0  1  3  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
+'1  3  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
+'2  24  9  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
+'3  5  43  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
+'4  1  8  ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
+'5  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
+'6  36  51  ~/.bash_profile
+'7  22  31  ~/.bash_profile
+'8  21  29  ~/.bash_profile
+'9  3  11  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
 
 # Jumplist (newest first):
+-'  1  3  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
+-'  3  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
+-'  24  9  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
+-'  5  43  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
+-'  8  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
+-'  1  8  ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
+-'  36  51  ~/.bash_profile
+-'  22  31  ~/.bash_profile
 -'  21  29  ~/.bash_profile
--'  32  52  ~/.bash_profile
+-'  33  52  ~/.bash_profile
 -'  3  11  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/TPB/TPB/.git/MERGE_MSG
--'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
 -'  59  27  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
 -'  60  8  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  42  18  ~/.bash_profile
+-'  43  18  ~/.bash_profile
 -'  1  8  ~/Desktop/Dropbox/UW/Resume and Cover/Resume/.gitignore
 -'  18  0  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  53  17  ~/.bash_profile
+-'  54  17  ~/.bash_profile
 -'  8  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/app.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/app.py
 -'  23  0  ~/Desktop/Dropbox/Codebase/Python/Projects-Solutions/README.md
@@ -130,7 +140,7 @@ $
 -'  6  8  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
 -'  1  22  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/changeme_kgoel.txt
--'  43  25  ~/.bash_profile
+-'  44  25  ~/.bash_profile
 -'  5  10  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
 -'  4  19  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
@@ -139,7 +149,7 @@ $
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
 -'  3  8  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
--'  38  8  ~/.bash_profile
+-'  39  8  ~/.bash_profile
 -'  1  31  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.git/COMMIT_EDITMSG
 -'  40  8  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
@@ -157,29 +167,28 @@ $
 -'  50  29  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
 -'  31  39  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
--'  41  52  ~/.bash_profile
+-'  42  52  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/app.db
--'  40  28  ~/.bash_profile
+-'  41  28  ~/.bash_profile
 -'  18  27  ~/.bash_profile
 -'  3  18  ~/Desktop/test.py
 -'  1  0  ~/Desktop/test.py
--'  47  9  ~/.bash_profile
--'  48  4  ~/.bash_profile
--'  49  22  ~/.bash_profile
--'  35  66  ~/.bash_profile
+-'  48  9  ~/.bash_profile
+-'  49  4  ~/.bash_profile
+-'  50  22  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
 -'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
 -'  9  8  ~/Desktop/Projects-Solutions/.git/config
 -'  1  0  ~/Desktop/Projects-Solutions/.git/config
--'  54  133  ~/.bash_profile
+-'  55  133  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
 -'  19  80  ~/.bash_profile
 -'  5  13  ~/.gitignore
 -'  7  8  ~/.gitignore
 -'  1  0  ~/.bashrc
 -'  1  0  ~/.gitignore
--'  26  33  ~/.bash_profile
+-'  27  33  ~/.bash_profile
 -'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/startbootstrap/.git/MERGE_MSG
@@ -190,58 +199,87 @@ $
 -'  1  8  ~/Desktop/Dropbox/Stuff/Admin/goel.im/.gitignore
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
 -'  1  0  ~/.bash_profile
--'  70  33  ~/.bash_profile
--'  112  15  ~/.bash_profile
--'  109  33  ~/.bash_profile
--'  88  7  ~/.bash_profile
+-'  71  33  ~/.bash_profile
+-'  113  15  ~/.bash_profile
+-'  110  33  ~/.bash_profile
+-'  89  7  ~/.bash_profile
 -'  11  35  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  4  6  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 -'  2  0  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
--'  13  3  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
--'  14  21  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
--'  7  62  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
--'  1  0  ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
--'  83  70  ~/.bash_profile
--'  24  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
--'  25  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
 
 # Buffer list:
-%~/.bash_profile	21	29
+%~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore	1	3
 
 # History of marks within files (newest to oldest):
 
+> ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
+	"	1	3
+	^	1	4
+	.	1	3
+	+	2	0
+	+	1	3
+
+> ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
+	"	3	0
+	^	3	0
+	.	2	54
+	+	2	54
+	+	2	54
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
+	"	24	9
+	^	24	10
+	.	24	9
+	+	23	0
+	+	24	9
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
+	"	5	43
+	^	5	44
+	.	5	43
+	+	7	81
+	+	4	75
+	+	5	43
+
+> ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
+	"	1	0
+
 > ~/.bash_profile
-	"	21	29
-	^	21	30
-	.	21	29
-	+	83	72
-	+	84	0
-	+	112	41
+	"	36	51
+	^	36	52
+	.	22	31
+	+	84	72
+	+	85	0
+	+	113	41
 	+	1	2
-	+	84	0
-	+	86	31
-	+	87	38
-	+	88	32
-	+	87	41
-	+	86	12
-	+	88	36
-	+	109	33
-	+	112	16
-	+	70	33
-	+	26	33
-	+	54	10
-	+	30	0
-	+	34	0
-	+	28	1
-	+	35	66
-	+	36	0
-	+	51	0
-	+	51	0
-	+	47	10
-	+	46	73
-	+	50	12
+	+	85	0
+	+	87	31
+	+	88	38
+	+	89	32
+	+	88	41
+	+	87	12
+	+	89	36
+	+	110	33
+	+	113	16
+	+	71	33
+	+	27	33
+	+	55	10
+	+	31	0
+	+	35	0
+	+	29	1
+	+	36	66
+	+	37	0
+	+	52	0
+	+	52	0
+	+	48	10
+	+	47	73
+	+	51	12
 	+	16	28
 	+	19	47
 	+	19	0
@@ -252,20 +290,21 @@ $
 	+	18	10
 	+	17	27
 	+	18	27
-	+	36	0
-	+	39	21
-	+	40	28
-	+	45	0
-	+	41	43
-	+	42	0
-	+	41	52
-	+	38	8
-	+	42	34
-	+	43	25
-	+	42	18
-	+	31	24
-	+	32	53
+	+	37	0
+	+	40	21
+	+	41	28
+	+	46	0
+	+	42	43
+	+	43	0
+	+	42	52
+	+	39	8
+	+	43	34
+	+	44	25
+	+	43	18
+	+	32	24
+	+	33	53
 	+	21	29
+	+	22	31
 
 > ~/Desktop/Dropbox/Codebase/General/envs/postactivate
 	"	3	11
@@ -275,12 +314,6 @@ $
 
 > ~/Desktop/Dropbox/Codebase/General/envs/TPB/TPB/.git/MERGE_MSG
 	"	1	0
-
-> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
-	"	4	0
-	^	4	0
-	.	3	81
-	+	3	81
 
 > ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
 	"	1	0
