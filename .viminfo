@@ -24,6 +24,7 @@ $
 :.!
 
 # Search String History (newest to oldest):
+?/ivar
 ? \s\+$
 ?/HEAD
 ?/Making sure the required argument was passed.
@@ -96,18 +97,43 @@ $
 	 
 
 # File marks:
-'0  1  3  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
-'1  3  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
-'2  24  9  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
-'3  5  43  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
-'4  1  8  ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
-'5  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
-'6  36  51  ~/.bash_profile
-'7  22  31  ~/.bash_profile
-'8  21  29  ~/.bash_profile
-'9  3  11  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
+'0  37  0  ~/.bash_profile
+'1  16  15  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
+'2  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
+'3  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.git/COMMIT_EDITMSG
+'4  15  39  ~/Desktop/f.js
+'5  12  11  ~/Desktop/f.js
+'6  11  21  ~/Desktop/f.js
+'7  13  25  ~/Desktop/f.js
+'8  9  7  ~/Desktop/f.js
+'9  19  2  ~/Desktop/f.js
 
 # Jumplist (newest first):
+-'  37  0  ~/.bash_profile
+-'  36  51  ~/.bash_profile
+-'  16  15  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
+-'  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.git/COMMIT_EDITMSG
+-'  15  39  ~/Desktop/f.js
+-'  12  11  ~/Desktop/f.js
+-'  11  21  ~/Desktop/f.js
+-'  13  25  ~/Desktop/f.js
+-'  9  7  ~/Desktop/f.js
+-'  19  2  ~/Desktop/f.js
+-'  1  0  ~/Desktop/f.js
+-'  5  54  ~/Desktop/asio.js
+-'  6  2  ~/Desktop/asio.js
+-'  1  0  ~/Desktop/asio.js
+-'  13  37  ~/Desktop/sio.js
+-'  1  7  ~/Desktop/sio.js
+-'  5  17  ~/Desktop/sio.js
+-'  3  11  ~/Desktop/ar.js
+-'  1  0  ~/Desktop/ar.js
+-'  1  23  ~/Desktop/hw.js
+-'  15  4  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
+-'  18  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
+-'  19  8  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
 -'  1  3  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
 -'  3  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
@@ -116,8 +142,6 @@ $
 -'  5  43  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
 -'  8  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
 -'  1  8  ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
--'  36  51  ~/.bash_profile
 -'  22  31  ~/.bash_profile
 -'  21  29  ~/.bash_profile
 -'  33  52  ~/.bash_profile
@@ -183,75 +207,14 @@ $
 -'  1  0  ~/Desktop/Projects-Solutions/.git/config
 -'  55  133  ~/.bash_profile
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
--'  19  80  ~/.bash_profile
--'  5  13  ~/.gitignore
--'  7  8  ~/.gitignore
--'  1  0  ~/.bashrc
--'  1  0  ~/.gitignore
--'  27  33  ~/.bash_profile
--'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
--'  1  0  ~/Desktop/Dropbox/Codebase/General/startbootstrap/.git/MERGE_MSG
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/TPB/.git/COMMIT_EDITMSG
--'  33  0  ~/Desktop/Dropbox/Codebase/Python/TPB/requirements.txt
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/TPB/requirements.txt
--'  42  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
--'  1  8  ~/Desktop/Dropbox/Stuff/Admin/goel.im/.gitignore
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
--'  1  0  ~/.bash_profile
--'  71  33  ~/.bash_profile
--'  113  15  ~/.bash_profile
--'  110  33  ~/.bash_profile
--'  89  7  ~/.bash_profile
--'  11  35  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
--'  4  6  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
--'  2  0  ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
 
 # Buffer list:
-%~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore	1	3
+%~/.bash_profile	37	0
 
 # History of marks within files (newest to oldest):
 
-> ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
-	"	1	3
-	^	1	4
-	.	1	3
-	+	2	0
-	+	1	3
-
-> ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
-	"	3	0
-	^	3	0
-	.	2	54
-	+	2	54
-	+	2	54
-
-> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
-	"	24	9
-	^	24	10
-	.	24	9
-	+	23	0
-	+	24	9
-
-> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
-	"	5	43
-	^	5	44
-	.	5	43
-	+	7	81
-	+	4	75
-	+	5	43
-
-> ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
-	"	1	8
-	^	1	9
-	.	1	8
-	+	1	8
-
-> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
-	"	1	0
-
 > ~/.bash_profile
-	"	36	51
+	"	37	0
 	^	36	52
 	.	22	31
 	+	84	72
@@ -305,6 +268,124 @@ $
 	+	33	53
 	+	21	29
 	+	22	31
+
+> ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
+	"	16	15
+	^	16	16
+	.	16	15
+	+	14	0
+	+	19	8
+	+	17	5
+	+	15	5
+	+	16	15
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/JS/PlaySink/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/Desktop/f.js
+	"	15	39
+	^	15	40
+	.	17	8
+	+	19	2
+	+	9	7
+	+	13	25
+	+	15	9
+	+	5	0
+	+	7	16
+	+	11	21
+	+	6	1
+	+	7	1
+	+	11	5
+	+	13	9
+	+	12	40
+	+	14	11
+	+	15	8
+	+	18	0
+	+	12	11
+	+	16	11
+	+	15	63
+	+	17	8
+
+> ~/Desktop/asio.js
+	"	5	54
+	^	5	55
+	.	5	54
+	+	5	55
+	+	6	2
+	+	5	54
+
+> ~/Desktop/sio.js
+	"	13	37
+	^	13	38
+	.	13	37
+	+	7	2
+	+	3	3
+	+	13	42
+	+	11	17
+	+	13	14
+	+	4	0
+	+	5	17
+	+	1	7
+	+	5	1
+	+	11	1
+	+	13	37
+
+> ~/Desktop/ar.js
+	"	3	11
+	^	3	12
+	.	3	11
+	+	3	9
+	+	1	13
+	+	3	4
+	+	1	11
+	+	3	26
+	+	2	38
+	+	5	16
+	+	3	11
+
+> ~/Desktop/hw.js
+	"	1	23
+	^	1	24
+	.	1	23
+	+	1	23
+
+> ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
+	"	1	3
+	^	1	4
+	.	1	3
+	+	2	0
+	+	1	3
+
+> ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
+	"	3	0
+	^	3	0
+	.	2	54
+	+	2	54
+	+	2	54
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
+	"	24	9
+	^	24	10
+	.	24	9
+	+	23	0
+	+	24	9
+
+> ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
+	"	5	43
+	^	5	44
+	.	5	43
+	+	7	81
+	+	4	75
+	+	5	43
+
+> ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
 
 > ~/Desktop/Dropbox/Codebase/General/envs/postactivate
 	"	3	11
