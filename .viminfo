@@ -15,17 +15,17 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-:q!
 :Wq
-:w
 :q
+:q!
+:w
 :wq!
 :P
 :.!
 
 # Search String History (newest to oldest):
-?/ivar
 ? \s\+$
+?/ivar
 ?/HEAD
 ?/Making sure the required argument was passed.
 ?/bin/bash
@@ -97,20 +97,42 @@ $
 	 
 
 # File marks:
-'0  37  0  ~/.bash_profile
-'1  16  15  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
-'2  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
-'3  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.git/COMMIT_EDITMSG
-'4  15  39  ~/Desktop/f.js
-'5  12  11  ~/Desktop/f.js
-'6  11  21  ~/Desktop/f.js
-'7  13  25  ~/Desktop/f.js
-'8  9  7  ~/Desktop/f.js
-'9  19  2  ~/Desktop/f.js
+'0  32  78  ~/.bash_profile
+'1  8  37  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
+'2  1  22  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
+'3  7  23  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
+'4  20  242  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+'5  15  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+'6  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/problem7.txt
+'7  11  78  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+'8  5  17  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+'9  8  132  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem6.txt
 
 # Jumplist (newest first):
--'  37  0  ~/.bash_profile
--'  36  51  ~/.bash_profile
+-'  32  78  ~/.bash_profile
+-'  39  0  ~/.bash_profile
+-'  8  37  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
+-'  1  22  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
+-'  7  23  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
+-'  20  242  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+-'  18  58  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+-'  15  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+-'  11  1  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/problem7.txt
+-'  5  17  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+-'  8  132  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem6.txt
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem6.txt
+-'  33  30  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/HolaWorld.java
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/HolaWorld.java
+-'  2  9  ~/.ssh/config
+-'  1  0  ~/.ssh/config
+-'  1  0  ~/.ssh/known_hosts
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/Sudo-Soldiers-Website/.git/MERGE_MSG
+-'  1  0  ~/Desktop/primecoin-0.1.2-linux/src/bitcoin-qt.pro
+-'  1  0  ~/Desktop/primecoin-0.1.2-linux/src/INSTALL
+-'  38  51  ~/.bash_profile
 -'  16  15  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.git/COMMIT_EDITMSG
@@ -144,7 +166,7 @@ $
 -'  1  8  ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
 -'  22  31  ~/.bash_profile
 -'  21  29  ~/.bash_profile
--'  33  52  ~/.bash_profile
+-'  35  52  ~/.bash_profile
 -'  3  11  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/TPB/TPB/.git/MERGE_MSG
@@ -152,10 +174,10 @@ $
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
 -'  59  27  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
 -'  60  8  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  43  18  ~/.bash_profile
+-'  45  18  ~/.bash_profile
 -'  1  8  ~/Desktop/Dropbox/UW/Resume and Cover/Resume/.gitignore
 -'  18  0  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  54  17  ~/.bash_profile
+-'  56  17  ~/.bash_profile
 -'  8  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/app.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/app.py
 -'  23  0  ~/Desktop/Dropbox/Codebase/Python/Projects-Solutions/README.md
@@ -164,7 +186,7 @@ $
 -'  6  8  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
 -'  1  22  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/changeme_kgoel.txt
--'  44  25  ~/.bash_profile
+-'  46  25  ~/.bash_profile
 -'  5  10  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
 -'  4  19  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
@@ -173,7 +195,7 @@ $
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
 -'  3  8  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
--'  39  8  ~/.bash_profile
+-'  41  8  ~/.bash_profile
 -'  1  31  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.git/COMMIT_EDITMSG
 -'  40  8  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
@@ -185,64 +207,42 @@ $
 -'  44  4  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/.gitignore
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/.gitignore
 -'  5  30  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/test.txt
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/test.txt
--'  38  0  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/.gitignore
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/.gitignore
--'  50  29  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
--'  31  39  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/Projects/Numbers/binary_decimal.py
--'  42  52  ~/.bash_profile
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/app.db
--'  41  28  ~/.bash_profile
--'  18  27  ~/.bash_profile
--'  3  18  ~/Desktop/test.py
--'  1  0  ~/Desktop/test.py
--'  48  9  ~/.bash_profile
--'  49  4  ~/.bash_profile
--'  50  22  ~/.bash_profile
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
--'  4  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/gitpython/file.py
--'  9  8  ~/Desktop/Projects-Solutions/.git/config
--'  1  0  ~/Desktop/Projects-Solutions/.git/config
--'  55  133  ~/.bash_profile
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/Alienfeed/AlienFeed/.git/COMMIT_EDITMSG
 
 # Buffer list:
-%~/.bash_profile	37	0
+%~/.bash_profile	32	78
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_profile
-	"	37	0
-	^	36	52
-	.	22	31
-	+	84	72
-	+	85	0
-	+	113	41
+	"	32	78
+	^	32	79
+	.	32	79
+	+	86	72
+	+	87	0
+	+	115	41
 	+	1	2
-	+	85	0
-	+	87	31
-	+	88	38
-	+	89	32
-	+	88	41
-	+	87	12
-	+	89	36
-	+	110	33
-	+	113	16
-	+	71	33
+	+	87	0
+	+	89	31
+	+	90	38
+	+	91	32
+	+	90	41
+	+	89	12
+	+	91	36
+	+	112	33
+	+	115	16
+	+	73	33
 	+	27	33
-	+	55	10
+	+	57	10
 	+	31	0
-	+	35	0
-	+	29	1
-	+	36	66
 	+	37	0
-	+	52	0
-	+	52	0
-	+	48	10
-	+	47	73
-	+	51	12
+	+	29	1
+	+	38	66
+	+	39	0
+	+	54	0
+	+	54	0
+	+	50	10
+	+	49	73
+	+	53	12
 	+	16	28
 	+	19	47
 	+	19	0
@@ -253,21 +253,91 @@ $
 	+	18	10
 	+	17	27
 	+	18	27
-	+	37	0
-	+	40	21
-	+	41	28
-	+	46	0
-	+	42	43
-	+	43	0
-	+	42	52
-	+	39	8
-	+	43	34
-	+	44	25
-	+	43	18
-	+	32	24
-	+	33	53
+	+	39	0
+	+	42	21
+	+	43	28
+	+	48	0
+	+	44	43
+	+	45	0
+	+	44	52
+	+	41	8
+	+	45	34
+	+	46	25
+	+	45	18
+	+	34	24
+	+	35	53
 	+	21	29
 	+	22	31
+	+	31	0
+	+	32	79
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
+	"	8	37
+	^	8	38
+	.	8	0
+	+	8	0
+
+> ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
+	"	1	22
+	^	1	23
+	.	1	22
+	+	9	18
+	+	3	17
+	+	7	23
+	+	1	22
+	z	1	22
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
+	"	20	242
+	^	20	243
+	.	20	242
+	+	5	26
+	+	5	33
+	+	5	47
+	+	8	4
+	+	11	78
+	+	4	1
+	+	11	79
+	+	14	347
+	+	18	50
+	+	18	176
+	+	20	0
+	+	17	2
+	+	20	242
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/problem7.txt
+	"	1	0
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem6.txt
+	"	8	132
+	^	8	133
+	.	8	132
+	+	8	132
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/HolaWorld.java
+	"	33	30
+	^	33	31
+	.	33	30
+	+	26	34
+	+	33	30
+
+> ~/.ssh/config
+	"	2	9
+	^	2	10
+	.	2	9
+	+	2	9
+
+> ~/.ssh/known_hosts
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/Sudo-Soldiers-Website/.git/MERGE_MSG
+	"	1	0
+
+> ~/Desktop/primecoin-0.1.2-linux/src/bitcoin-qt.pro
+	"	1	0
+
+> ~/Desktop/primecoin-0.1.2-linux/src/INSTALL
+	"	1	0
 
 > ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
 	"	16	15

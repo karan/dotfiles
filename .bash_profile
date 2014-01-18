@@ -29,6 +29,8 @@ alias uw="cd ~/Desktop/Dropbox/UW"
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
+
 # make a py3 virtual env
 alias mkv3="mkvirtualenv -p /usr/local/bin/python3 $1"
 
