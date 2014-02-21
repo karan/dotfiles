@@ -20,6 +20,7 @@ alias attu4="ssh kgoel@attu4.cs.washington.edu"
 alias aeb="ssh kgoel@aeb.cs.washington.edu" # probably during dead week?
 alias abelay="ssh kgoel@abelay.cs.washington.edu"
 alias semanti="ssh kgoel@semanti.cs.washington.edu"
+alias ananth="ssh kgoel@ananth.cs.washington.edu"
 
 # cd into most used dirs
 alias dropbox="cd ~/Desktop/Dropbox"
@@ -35,7 +36,7 @@ alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
 alias mkv3="mkvirtualenv -p /usr/local/bin/python3 $1"
 
 # Print a tree representation of the current folder
-alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 
 # Git aliases
 alias gs="git status"

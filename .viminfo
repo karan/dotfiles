@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/HEAD
+~MSle0~/MIT License (MIT)
 
 # Last Substitute String:
 $
@@ -16,15 +16,38 @@ $
 # Command Line History (newest to oldest):
 :wq
 :Wq
+:help NERD_tree.txt
+:helptags ~/.vim/doc
+:helptags
 :q
+:NERDTree
+::help NERD_tree.txt
+:helptags nerdtree
+:NERTTREE
 :q!
+:unset paste
+:unset past
+:set paste
 :w
 :wq!
 :P
 :.!
+:Q
+:NERDTree .
 
 # Search String History (newest to oldest):
 ? \s\+$
+?/MIT License (MIT)
+?/   return next_prime
+?/           i += 1 # increment the divisor
+?/       else:
+?/           i = 2 # reset i to check divisibility again from 2
+?/           next_prime += 1 # ready to check the next number
+?/       if next_prime % i == 0: # if number is divisible
+?/   while next_prime > i: # check with numbers up to next_prime - 1
+?/   i = 2
+?/   next_prime = current + 1 # start checking for primes 1 number after the current one
+?/<<<<
 ?/ivar
 ?/HEAD
 ?/Making sure the required argument was passed.
@@ -81,6 +104,7 @@ $
 ?/192.150.18.108
 ?/192.150.18.101
 ?/192.150.14.69
+?/plugi
 
 # Expression History (newest to oldest):
 
@@ -89,28 +113,106 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	alias abelay="ssh kgoel@abelay.cs.washington.edu"
+"0	CHAR	0
+	fullname
 "1	LINE	0
+	
+"2	LINE	0
+	
+"3	LINE	0
+	
+"4	LINE	0
+	
+"5	LINE	0
+	
+"6	LINE	0
+	" ============================================================================
+	" Netrw Directory Listing                                        (netrw v140)
+	"   /Users/karan/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/.settings
+	"   Sorted by      name
+	"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+	" ============================================================================
+	../
+	org.eclipse.jdt.core.prefs
+"7	LINE	0
+	
+"8	LINE	0
+	
+"9	LINE	0
 	    'optional_requisite': [],
-"-	CHAR	0
-	 
+""-	CHAR	0
+	>>>>>>> c0e7710b44cf7e98af16b4b5a9f78d16ede3ff51
 
 # File marks:
-'0  32  78  ~/.bash_profile
-'1  8  37  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
-'2  1  22  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
-'3  7  23  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
-'4  20  242  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
-'5  15  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
-'6  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/problem7.txt
-'7  11  78  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
-'8  5  17  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
-'9  8  132  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem6.txt
+'0  1  0  ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
+'1  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/2/package.json
+'2  9  27  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/1/server.js
+'3  9  40  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/.git/config
+'4  4  4  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
+'5  3  3  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
+'6  2  12  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
+'7  8  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.git
+'8  2  15  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
+'9  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
 
 # Jumplist (newest first):
--'  32  78  ~/.bash_profile
--'  39  0  ~/.bash_profile
+-'  1  0  ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/2/package.json
+-'  9  27  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/1/server.js
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/1/server.js
+-'  9  40  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/.git/config
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/.git/config
+-'  4  4  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
+-'  3  3  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
+-'  2  12  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
+-'  8  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.git
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/COMMIT_EDITMSG
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.git/MERGE_MSG
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/goel.im/.git/MERGE_MSG
+-'  3  1  ~/Desktop/Dropbox/Codebase/General/goel.im/.git/COMMIT_EDITMSG
+-'  1  11  ~/Desktop/Dropbox/Codebase/General/goel.im/CNAME
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hn2/hn2/.env
+-'  23  11  ~/.bash_profile
+-'  1  1  ~/Desktop/Dropbox/Codebase/JS/s/.gitignore
+-'  3  0  ~/Desktop/Dropbox/Codebase/JS/s/.gitignore
+-'  3  28  ~/Desktop/Dropbox/Codebase/JS/s/LICENSE.txt
+-'  1  8  ~/Desktop/Dropbox/Codebase/JS/s/LICENSE.txt
+-'  2  8  ~/Desktop/short/.gitignore
+-'  1  0  ~/Desktop/short/.gitignore
+-'  39  49  ~/.bash_profile
+-'  2  0  ~/Desktop/5/prolog_warmup.pl
+-'  1  0  ~/Desktop/5/prolog_warmup.pl
+-'  10  0  ~/Desktop/ish/Pres/package.json
+-'  1  0  ~/Desktop/ish/Pres/package.json
+-'  38  0  ~/.bash_profile
+-'  56  0  ~/.bash_profile
+-'  2  0  ~/Desktop/test.py
+-'  1  0  ~/Desktop/test.py
+-'  3  6  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw4/answers/problem5.txt
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw4/answers/problem5.txt
+-'  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/runserver.sh
+-'  3  2  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw4/answers/problem2.txt
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw4/answers/problem2.txt
+-'  256  10  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/bin/common.xml
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/bin/common.xml
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/.settings/org.eclipse.jdt.core.prefs
+-'  3  24  ~/Desktop/sudo/.git/COMMIT_EDITMSG
+-'  1  0  ~/Desktop/sudo/.git/COMMIT_EDITMSG
+-'  1  8  ~/Desktop/WebDev/.gitignore
+-'  1  0  ~/Desktop/WebDev/.gitignor
+-'  6  6  ~/Desktop/double.hs
+-'  8  17  ~/Desktop/double.hs
+-'  2  13  ~/Desktop/double.hs
+-'  1  0  ~/Desktop/double.hs
+-'  1  0  ~/Desktop/Dropbox/Codebase/General/goel.im/.git/COMMIT_EDITMSG
+-'  12  0  /private/etc/hosts
+-'  1  6  ~/Desktop/ZipUp/.git/MERGE_MSG
+-'  33  78  ~/.bash_profile
+-'  40  0  ~/.bash_profile
 -'  8  37  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
 -'  1  22  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
@@ -132,7 +234,6 @@ $
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/Sudo-Soldiers-Website/.git/MERGE_MSG
 -'  1  0  ~/Desktop/primecoin-0.1.2-linux/src/bitcoin-qt.pro
 -'  1  0  ~/Desktop/primecoin-0.1.2-linux/src/INSTALL
--'  38  51  ~/.bash_profile
 -'  16  15  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.git/COMMIT_EDITMSG
@@ -152,97 +253,183 @@ $
 -'  3  11  ~/Desktop/ar.js
 -'  1  0  ~/Desktop/ar.js
 -'  1  23  ~/Desktop/hw.js
--'  15  4  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
--'  18  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
--'  19  8  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
--'  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
--'  1  3  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.gitignore
--'  3  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/bin/postactivate
--'  24  9  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.gitignore
--'  5  43  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
--'  8  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
--'  1  8  ~/Desktop/Dropbox/Codebase/General/Interviews/.gitignore
--'  22  31  ~/.bash_profile
--'  21  29  ~/.bash_profile
--'  35  52  ~/.bash_profile
--'  3  11  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/postactivate
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/TPB/TPB/.git/MERGE_MSG
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/COMMIT_EDITMSG
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  59  27  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  60  8  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  45  18  ~/.bash_profile
--'  1  8  ~/Desktop/Dropbox/UW/Resume and Cover/Resume/.gitignore
--'  18  0  ~/Desktop/Dropbox/Codebase/Python/NobodyDoesThis/ndt.py
--'  56  17  ~/.bash_profile
--'  8  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/app.py
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/app.py
--'  23  0  ~/Desktop/Dropbox/Codebase/Python/Projects-Solutions/README.md
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/Projects-Solutions/README.md
--'  3  2  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
--'  6  8  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
--'  1  22  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/changeme_kgoel.txt
--'  46  25  ~/.bash_profile
--'  5  10  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
--'  4  19  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.coveragerc
--'  10  51  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
--'  9  28  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/test_bot.py
--'  3  8  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/hntest/test.py
--'  41  8  ~/.bash_profile
--'  1  31  ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/.git/COMMIT_EDITMSG
--'  40  8  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/.gitignore
--'  1  8  ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/ARCH-251/.gitignore
--'  9  37  ~/Desktop/Pathify/.git/config
--'  1  0  ~/Desktop/Pathify/.git/config
--'  11  52  ~/Desktop/Dropbox/Codebase/Python/Projects/Text/reverse.py
--'  1  0  ~/Desktop/Dropbox/Codebase/Python/Projects/Text/reverse.py
--'  44  4  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/.gitignore
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/.gitignore
--'  5  30  ~/Desktop/Dropbox/Codebase/General/envs/pathify/scrape_majors/test.txt
 
 # Buffer list:
-%~/.bash_profile	32	78
+%~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py	1	0
 
 # History of marks within files (newest to oldest):
 
-> ~/.bash_profile
-	"	32	78
-	^	32	79
-	.	32	79
-	+	86	72
-	+	87	0
-	+	115	41
-	+	1	2
-	+	87	0
-	+	89	31
-	+	90	38
-	+	91	32
-	+	90	41
-	+	89	12
-	+	91	36
-	+	112	33
-	+	115	16
-	+	73	33
-	+	27	33
-	+	57	10
-	+	31	0
-	+	37	0
-	+	29	1
-	+	38	66
+> ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
+	"	1	0
+	z	1	0
+
+> ~/.vim/NERD_tree_1
+	"	25	11
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/.vim/NERD_tree_2
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/NERD_tree_3
+	"	22	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Desktop/Dropbox/Codebase/Python/Projects-Solutions/README.md
+	"	22	0
+	^	23	0
+	.	23	0
+	+	23	0
+
+> ~/Desktop/Dropbox/Codebase/Python/RedditAgain/LICENSE.txt
+	"	1	0
+
+> ~/.vimrc
+	"	41	8
+	^	41	9
+	.	41	8
+	+	398	0
+	+	390	10
+	+	266	7
+	+	2	0
+	+	52	0
+	+	53	49
+	+	50	0
+	+	53	0
+	+	53	25
+	+	53	25
+	+	54	0
+	+	53	0
 	+	39	0
-	+	54	0
-	+	54	0
-	+	50	10
-	+	49	73
-	+	53	12
+	+	41	8
+
+> ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/2/package.json
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/1/server.js
+	"	9	27
+
+> ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/.git/config
+	"	9	40
+	^	9	41
+	.	9	40
+	+	9	40
+
+> ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
+	"	4	4
+	^	4	5
+	.	4	4
+	+	3	4
+	+	1	13
+	+	4	4
+
+> ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
+	"	2	12
+	^	2	13
+	.	3	0
+	+	2	13
+	+	2	13
+	+	2	17
+	+	3	5
+	+	3	0
+	+	2	13
+	+	2	13
+	+	3	5
+	+	3	5
+	+	4	0
+	+	3	0
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
+	"	1	0
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.git/MERGE_MSG
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/General/goel.im/.git/MERGE_MSG
+	"	1	0
+
+> ~/Desktop/Dropbox/Codebase/General/goel.im/.git/COMMIT_EDITMSG
+	"	3	1
+	^	3	2
+	.	3	1
+	+	3	1
+
+> ~/Desktop/Dropbox/Codebase/General/goel.im/CNAME
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/Desktop/Dropbox/Codebase/General/envs/hn2/hn2/.env
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	36
+	+	3	44
+	+	1	0
+
+> ~/.bash_profile
+	"	23	11
+	^	23	12
+	.	23	11
+	+	87	72
+	+	88	0
+	+	116	41
+	+	1	2
+	+	88	0
+	+	90	31
+	+	91	38
+	+	92	32
+	+	91	41
+	+	90	12
+	+	92	36
+	+	113	33
+	+	116	16
+	+	74	33
+	+	28	33
+	+	58	10
+	+	32	0
+	+	38	0
+	+	30	1
+	+	39	66
+	+	40	0
+	+	55	0
+	+	55	0
+	+	51	10
+	+	50	73
+	+	54	12
 	+	16	28
 	+	19	47
 	+	19	0
@@ -253,23 +440,136 @@ $
 	+	18	10
 	+	17	27
 	+	18	27
-	+	39	0
-	+	42	21
-	+	43	28
-	+	48	0
-	+	44	43
-	+	45	0
-	+	44	52
-	+	41	8
-	+	45	34
-	+	46	25
-	+	45	18
-	+	34	24
-	+	35	53
+	+	40	0
+	+	43	21
+	+	44	28
+	+	49	0
+	+	45	43
+	+	46	0
+	+	45	52
+	+	42	8
+	+	46	34
+	+	47	25
+	+	46	18
+	+	35	24
+	+	36	53
 	+	21	29
 	+	22	31
-	+	31	0
-	+	32	79
+	+	32	0
+	+	33	79
+	+	39	0
+	+	38	51
+	+	38	51
+	+	38	51
+	+	38	51
+	+	39	21
+	+	39	49
+	+	23	51
+	+	23	51
+	+	24	0
+	+	23	11
+
+> ~/Desktop/Dropbox/Codebase/JS/s/.gitignore
+	"	1	1
+	^	1	8
+	.	1	7
+	+	1	7
+
+> ~/Desktop/Dropbox/Codebase/JS/s/LICENSE.txt
+	"	3	28
+	^	3	29
+	.	3	28
+	+	1	30
+	+	21	9
+	+	1	0
+	+	2	0
+	+	1	20
+	+	3	28
+
+> ~/Desktop/short/.gitignore
+	"	2	8
+	^	2	9
+	.	2	8
+	+	2	8
+
+> ~/Desktop/5/prolog_warmup.pl
+	"	2	0
+
+> ~/Desktop/ish/Pres/package.json
+	"	10	0
+
+> ~/Desktop/test.py
+	"	2	0
+	^	1	0
+	.	2	0
+	+	12	18
+	+	1	0
+	+	2	0
+	e	2	0
+	z	12	18
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw4/answers/problem5.txt
+	"	3	6
+	^	3	7
+	.	3	6
+	+	3	6
+
+> ~/Desktop/Dropbox/Codebase/JS/PlaySink/runserver.sh
+	"	1	0
+	^	1	36
+	.	1	35
+	+	1	35
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw4/answers/problem2.txt
+	"	3	2
+	^	3	3
+	.	3	2
+	+	3	2
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/bin/common.xml
+	"	256	10
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/.settings/org.eclipse.jdt.core.prefs
+	"	1	0
+
+> ~/Desktop/sudo/.git/COMMIT_EDITMSG
+	"	3	24
+	^	3	25
+	.	3	24
+	+	3	24
+
+> ~/Desktop/WebDev/.gitignore
+	"	1	8
+	^	1	9
+	.	1	9
+	+	1	9
+
+> ~/Desktop/WebDev/.gitignor
+	"	1	0
+
+> ~/Desktop/double.hs
+	"	6	6
+	^	6	7
+	.	7	10
+	+	2	13
+	+	7	28
+	+	8	17
+	+	7	8
+	+	8	8
+	+	6	1
+	+	7	4
+	+	8	4
+	+	7	10
+
+> /private/etc/hosts
+	"	12	0
+	^	12	0
+	.	11	0
+	+	13	0
+	+	11	0
+
+> ~/Desktop/ZipUp/.git/MERGE_MSG
+	"	1	6
 
 > ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
 	"	8	37
@@ -488,12 +788,6 @@ $
 > ~/Desktop/Dropbox/Codebase/General/envs/hnify/HNify/app.py
 	"	8	0
 
-> ~/Desktop/Dropbox/Codebase/Python/Projects-Solutions/README.md
-	"	23	0
-	^	23	0
-	.	23	0
-	+	23	0
-
 > ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw9/hw9/message_kgoel.sh
 	"	3	2
 	^	3	3
@@ -599,13 +893,6 @@ $
 
 > ~/Desktop/Dropbox/Codebase/General/envs/flask_tutorial/tutorial/app.db
 	"	1	0
-
-> ~/Desktop/test.py
-	"	3	18
-	^	3	19
-	.	3	18
-	+	3	18
-	z	3	18
 
 > ~/Desktop/Dropbox/Codebase/General/envs/gitpython/Projects-Solutions/.git/config
 	"	1	0
@@ -743,58 +1030,3 @@ $
 	.	44	0
 	+	44	0
 	z	324	0
-
-> ~/Desktop/Dropbox/Codebase/Python/HackerNewsAPI/hn/hn.py
-	"	138	12
-	.	8	0
-	+	8	0
-	z	138	12
-
-> ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/sample.py
-	"	6	0
-	z	6	0
-
-> ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/helloworld.py
-	"	8	10
-	z	8	10
-
-> /private/etc/hosts
-	"	12	0
-	^	12	0
-	.	11	0
-	+	13	0
-	+	11	0
-
-> ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/.vimrc
-	"	1	0
-	^	1	0
-	.	2	0
-	+	394	0
-	+	386	10
-	+	262	7
-	+	2	0
-
-> ~/Desktop/Meetup 1/sample.py
-	"	12	6
-	^	12	7
-	.	12	7
-	+	2	4
-	+	1	13
-	+	12	10
-	+	4	0
-	+	5	10
-	+	12	7
-	z	12	6
-
-> ~/helloworld.py
-	"	9	22
-	^	9	23
-	.	9	22
-	+	9	22
-	z	9	22
-
-> ~/.bash_
-	"	1	0
