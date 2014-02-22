@@ -8,14 +8,24 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/MIT License (MIT)
+~MSle0~/  - Choose session:   Ctrl-s
+
+# Last Substitute Search Pattern:
+~MSle0&^\"
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq
+:set nu
+:set nopaste
+:set paste
+:q!
 :Wq
+:w
+:g/^\"/d
+:g/^".*?/d
+:g/^\".*?/d
 :help NERD_tree.txt
 :helptags ~/.vim/doc
 :helptags
@@ -24,87 +34,30 @@ $
 ::help NERD_tree.txt
 :helptags nerdtree
 :NERTTREE
-:q!
 :unset paste
 :unset past
-:set paste
-:w
-:wq!
-:P
-:.!
-:Q
-:NERDTree .
 
 # Search String History (newest to oldest):
-? \s\+$
-?/MIT License (MIT)
-?/   return next_prime
-?/           i += 1 # increment the divisor
-?/       else:
-?/           i = 2 # reset i to check divisibility again from 2
-?/           next_prime += 1 # ready to check the next number
-?/       if next_prime % i == 0: # if number is divisible
-?/   while next_prime > i: # check with numbers up to next_prime - 1
-?/   i = 2
-?/   next_prime = current + 1 # start checking for primes 1 number after the current one
-?/<<<<
-?/ivar
-?/HEAD
-?/Making sure the required argument was passed.
-?/bin/bash
-?/The orginal version is saved in .bash_profile.pysave
-?/Setting PATH for Python 2.7
-?/wwis-dubc1-vip60.adobe.com
-?/wip4.adobe.com
-?/wip3.adobe.com
-?/wip2.adobe.com
-?/wip1.adobe.com
-?/wip.adobe.com
-?/tss-geotrust-crl.thawte.com
-?/practivate.adobe.ntp
-?/practivate.adobe.newoa
-?/practivate.adobe.ipp
-?/practivate.adobe.com
-?/practivate.adobe.*
-?/practivate.adobe
-?/ood.opsource.net
-?/hl2rcv.adobe.com
-?/ereg.wip4.adobe.com
-?/ereg.wip3.adobe.com
-?/ereg.wip2.adobe.com
-?/ereg.wip1.adobe.com
-?/ereg.wip.adobe.com
-?/ereg.adobe.com
-?/CRL.VERISIGN.NET.*
-?/crl.verisign.net
-?/adobeereg.com
-?/adobe.activate.com
-?/adobe-dns.adobe.com
-?/adobe-dns-4.adobe.com
-?/adobe-dns-3.adobe.com
-?/adobe-dns-2.adobe.com
-?/adobe-dns-1.adobe.com
-?/activate.wip4.adobe.com
-?/activate.wip3.adobe.com
-?/activate.wip2.adobe.com
-?/activate.wip1.adobe.com
-?/activate.wip.adobe.com
-?/activate.adobe.com
-?/activate-sjc0.adobe.com
-?/activate-sea.adobe.com
-?/3dns.adobe.com
-?/3dns-4.adobe.com
-?/3dns-3.adobe.com
-?/3dns-2.adobe.com
-?/3dns-1.adobe.com
-?/209-34-83-73.ood.opsource.net
-?/192.150.8.118
-?/192.150.8.100
-?/192.150.22.40
-?/192.150.18.108
-?/192.150.18.101
-?/192.150.14.69
-?/plugi
+?/  - Quick window:     Ctrl-q
+?/  - Choose session:   Ctrl-s
+?/  - Next window:      ]
+?/  - Previous window:  [
+?/  - Horizontal split: s
+?/  - Vertical split:   v
+?/  - Last used pane:   ;
+?/  - Last used window: /
+?/- All prefixed with Ctrl-a
+?/- Prefix is set to Ctrl-a (make sure you remapped Caps Lock to Ctrl)
+?/Usage:
+? \<C\>
+? \<c\>
+?/KEYS ###
+?/remap prefix to Control + a
+? ^\"
+? ^".*?
+? ^\".*?
+?/Text,
+?/Helper
 
 # Expression History (newest to oldest):
 
@@ -115,48 +68,106 @@ $
 # Registers:
 "0	CHAR	0
 	fullname
-"1	LINE	0
-	
+""1	LINE	0
+	 
+	bind C-q command-prompt -I "htop" -p "Quick window command: " "new-window '%%'"
+	 
 "2	LINE	0
-	
+	bind h select-pane -L
+	bind j select-pane -D
+	bind k select-pane -U
+	bind l select-pane -R
+	 
+	unbind {
+	bind { swap-pane -D
+	unbind }
+	bind } swap-pane -U
+	 
+	#unbind r
+	#bind r source-file ~/.tmux.conf; display "Reloaded"
 "3	LINE	0
+	#count windows and panes from 1
+	#set -g base-index 1
+	#setw -g pane-base-index ing C-a as prefix
 	
+	unbind C-b
+	set-option -g prefix C-a
+	bind C-a send-prefix
+	 
+	unbind /
+	bind / last-window
 "4	LINE	0
 	
+	
+	
+	
 "5	LINE	0
+	# Usage:
+	# - Prefix is set to Ctrl-a (make sure you remapped Caps Lock to Ctrl)
+	# - All prefixed with Ctrl-a
+	#   - Last used window: /
+	#   - Last used pane:   ;
+	#   - Vertical split:   v
+	#   - Horizontal split: s
+	#   - Previous window:  [
+	#   - Next window:      ]
+	#   - Choose session:   Ctrl-s
+	#   - Quick window:     Ctrl-q
 	
 "6	LINE	0
-	" ============================================================================
-	" Netrw Directory Listing                                        (netrw v140)
-	"   /Users/karan/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/.settings
-	"   Sorted by      name
-	"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
-	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
-	" ============================================================================
-	../
-	org.eclipse.jdt.core.prefs
+	
+	# This configuration file binds many of the common GNU screen key bindings to
+	# appropriate tmux key bindings. Note that for some key bindings there is no
+	# tmux analogue and also that this set omits binding some commands available in
+	# tmux but not in screen.
+	#
+	# Note this is a good starting point but you should check out the man page for more
+	# configuration options if you really want to get more out of tmux
+	 
 "7	LINE	0
-	
+	" Don't close window, when deleting a buffer
 "8	LINE	0
-	
+	" Returns true if paste mode is enabled
 "9	LINE	0
-	    'optional_requisite': [],
-""-	CHAR	0
-	>>>>>>> c0e7710b44cf7e98af16b4b5a9f78d16ede3ff51
+	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"-	CHAR	0
+	C#no command delay
 
 # File marks:
-'0  1  0  ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
-'1  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/2/package.json
-'2  9  27  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/1/server.js
-'3  9  40  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/.git/config
-'4  4  4  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
-'5  3  3  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
-'6  2  12  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
-'7  8  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.git
-'8  2  15  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
-'9  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
+'0  1  0  /private/var/folders/rk/b1ymk69d3jngfc6gqydj3ls80000gn/T/tutoryU0q2w
+'1  38  0  ~/.tmux.conf
+'2  20  20  ~/.tmux.conf
+'3  1  9  ~/.tmux.conf
+'4  15  24  ~/.tmux.conf
+'5  1  9  ~/.tmux.conf
+'6  1  0  ~/tmux
+'7  172  0  ~/.tmux.conf
+'8  1  0  ~/tmux.conf
+'9  230  0  ~/.vimrc
 
 # Jumplist (newest first):
+-'  1  0  /private/var/folders/rk/b1ymk69d3jngfc6gqydj3ls80000gn/T/tutoryU0q2w
+-'  38  0  ~/.tmux.conf
+-'  20  20  ~/.tmux.conf
+-'  1  9  ~/.tmux.conf
+-'  3  0  ~/.tmux.conf
+-'  4  5  ~/.tmux.conf
+-'  15  28  ~/.tmux.conf
+-'  32  5  ~/.tmux.conf
+-'  35  5  ~/.tmux.conf
+-'  36  5  ~/.tmux.conf
+-'  172  0  ~/.tmux.conf
+-'  1  0  ~/tmux
+-'  1  0  ~/tmux.conf
+-'  230  0  ~/.vimrc
+-'  83  0  ~/.vimrc
+-'  79  4  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  6  8  ~/.vimrc
+-'  195  5  ~/.vimrc
+-'  15  0  ~/.vimrc
+-'  3  0  ~/.vimrc
+-'  2  8  ~/.vimrc
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/2/package.json
 -'  9  27  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/1/server.js
@@ -223,41 +234,107 @@ $
 -'  11  1  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/problem7.txt
 -'  5  17  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
--'  8  132  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem6.txt
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem6.txt
--'  33  30  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/HolaWorld.java
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/HolaWorld.java
--'  2  9  ~/.ssh/config
--'  1  0  ~/.ssh/config
--'  1  0  ~/.ssh/known_hosts
--'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/Sudo-Soldiers-Website/.git/MERGE_MSG
--'  1  0  ~/Desktop/primecoin-0.1.2-linux/src/bitcoin-qt.pro
--'  1  0  ~/Desktop/primecoin-0.1.2-linux/src/INSTALL
--'  16  15  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.gitignore
--'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/HackerNewsAPI/HackerNewsAPI/.git/MERGE_MSG
--'  1  0  ~/Desktop/Dropbox/Codebase/JS/PlaySink/.git/COMMIT_EDITMSG
--'  15  39  ~/Desktop/f.js
--'  12  11  ~/Desktop/f.js
--'  11  21  ~/Desktop/f.js
--'  13  25  ~/Desktop/f.js
--'  9  7  ~/Desktop/f.js
--'  19  2  ~/Desktop/f.js
--'  1  0  ~/Desktop/f.js
--'  5  54  ~/Desktop/asio.js
--'  6  2  ~/Desktop/asio.js
--'  1  0  ~/Desktop/asio.js
--'  13  37  ~/Desktop/sio.js
--'  1  7  ~/Desktop/sio.js
--'  5  17  ~/Desktop/sio.js
--'  3  11  ~/Desktop/ar.js
--'  1  0  ~/Desktop/ar.js
--'  1  23  ~/Desktop/hw.js
-
-# Buffer list:
-%~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py	1	0
+-'  58  0  ~/.tmux.conf
 
 # History of marks within files (newest to oldest):
+
+> /private/var/folders/rk/b1ymk69d3jngfc6gqydj3ls80000gn/T/tutoryU0q2w
+	"	1	0
+
+> ~/.tmux.conf
+	"	38	0
+	^	38	0
+	.	32	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	39	0
+	+	1	0
+	+	172	2
+	+	164	0
+	+	166	0
+	+	167	0
+	+	168	0
+	+	169	0
+	+	165	0
+	+	170	0
+	+	171	0
+	+	172	0
+	+	164	0
+	+	167	0
+	+	168	0
+	+	171	0
+	+	172	0
+	+	1	3
+	+	8	0
+	+	6	7
+	+	1	0
+	+	1	11
+	+	15	25
+	+	15	25
+	+	15	25
+	+	15	41
+	+	15	25
+	+	15	41
+	+	38	0
+	+	3	0
+	+	1	0
+	+	1	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	20	20
+	+	20	20
+	+	1	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	17	0
+	+	16	45
+	+	18	19
+	+	20	19
+	+	20	20
+	+	22	0
+	+	20	19
+	+	32	0
+
+> ~/tmux
+	"	1	0
+
+> ~/tmux.conf
+	"	1	0
+	^	1	0
+	.	1	0
+	+	11	26
+	+	1	0
+
+> ~/.vimrc
+	"	230	0
+	^	6	9
+	.	230	0
+	+	249	0
+	+	241	10
+	+	152	7
+	+	1	0
+	+	10	0
+	+	11	49
+	+	8	0
+	+	11	0
+	+	11	25
+	+	11	25
+	+	12	0
+	+	11	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	7	0
+	+	1	0
+	+	79	4
+	+	101	0
+	+	230	0
 
 > ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
 	"	1	0
@@ -312,25 +389,6 @@ $
 
 > ~/Desktop/Dropbox/Codebase/Python/RedditAgain/LICENSE.txt
 	"	1	0
-
-> ~/.vimrc
-	"	41	8
-	^	41	9
-	.	41	8
-	+	398	0
-	+	390	10
-	+	266	7
-	+	2	0
-	+	52	0
-	+	53	49
-	+	50	0
-	+	53	0
-	+	53	25
-	+	53	25
-	+	54	0
-	+	53	0
-	+	39	0
-	+	41	8
 
 > ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/2/package.json
 	"	1	0
@@ -989,44 +1047,3 @@ $
 	+	5	65
 	+	6	68
 	+	7	30
-
-> ~/Desktop/Dropbox/Codebase/Python/popular-trailers/trailer.py
-	"	24	0
-	.	5	0
-	+	5	0
-	z	24	0
-
-> ~/Desktop/file_test.py
-	"	4	46
-	^	4	47
-	.	4	46
-	+	1	27
-	+	4	0
-	+	1	10
-	+	3	3
-	+	4	8
-	+	3	0
-	+	2	12
-	+	4	63
-	+	8	26
-	+	9	9
-	+	2	13
-	+	4	50
-	+	5	19
-	+	4	35
-	+	5	14
-	+	6	20
-	+	4	46
-	z	4	46
-
-> ~/Desktop/file.txt
-	"	1	14
-	^	1	15
-	.	1	14
-	+	1	14
-
-> ~/Desktop/Dropbox/Codebase/Python/TPB/tpb/tpb.py
-	"	324	0
-	.	44	0
-	+	44	0
-	z	324	0
