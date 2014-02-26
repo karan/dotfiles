@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/  - Choose session:   Ctrl-s
+~MSle0~/line
 
 # Last Substitute Search Pattern:
 ~MSle0&^\"
@@ -17,20 +17,25 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+:q!
+:NERDTree
+:set paste
+:w
+:q
+:set showcmd
+:show cmd
+:set ruler
+:set background=dark
+:Wq
 :set nu
 :set nopaste
-:set paste
-:q!
-:Wq
-:w
 :g/^\"/d
 :g/^".*?/d
 :g/^\".*?/d
 :help NERD_tree.txt
 :helptags ~/.vim/doc
 :helptags
-:q
-:NERDTree
 ::help NERD_tree.txt
 :helptags nerdtree
 :NERTTREE
@@ -38,6 +43,13 @@ $
 :unset past
 
 # Search String History (newest to oldest):
+?/line
+?/sett
+?/split
+?/hlsea
+?/scroll
+?/curso
+? \s\+$
 ?/  - Quick window:     Ctrl-q
 ?/  - Choose session:   Ctrl-s
 ?/  - Next window:      ]
@@ -68,11 +80,13 @@ $
 # Registers:
 "0	CHAR	0
 	fullname
-""1	LINE	0
+"1	LINE	0
+	
+"2	LINE	0
 	 
 	bind C-q command-prompt -I "htop" -p "Quick window command: " "new-window '%%'"
 	 
-"2	LINE	0
+"3	LINE	0
 	bind h select-pane -L
 	bind j select-pane -D
 	bind k select-pane -U
@@ -85,7 +99,7 @@ $
 	 
 	#unbind r
 	#bind r source-file ~/.tmux.conf; display "Reloaded"
-"3	LINE	0
+"4	LINE	0
 	#count windows and panes from 1
 	#set -g base-index 1
 	#setw -g pane-base-index ing C-a as prefix
@@ -96,12 +110,12 @@ $
 	 
 	unbind /
 	bind / last-window
-"4	LINE	0
-	
-	
-	
-	
 "5	LINE	0
+	
+	
+	
+	
+"6	LINE	0
 	# Usage:
 	# - Prefix is set to Ctrl-a (make sure you remapped Caps Lock to Ctrl)
 	# - All prefixed with Ctrl-a
@@ -114,7 +128,7 @@ $
 	#   - Choose session:   Ctrl-s
 	#   - Quick window:     Ctrl-q
 	
-"6	LINE	0
+"7	LINE	0
 	
 	# This configuration file binds many of the common GNU screen key bindings to
 	# appropriate tmux key bindings. Note that for some key bindings there is no
@@ -124,50 +138,69 @@ $
 	# Note this is a good starting point but you should check out the man page for more
 	# configuration options if you really want to get more out of tmux
 	 
-"7	LINE	0
-	" Don't close window, when deleting a buffer
 "8	LINE	0
-	" Returns true if paste mode is enabled
+	" Don't close window, when deleting a buffer
 "9	LINE	0
-	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"-	CHAR	0
-	C#no command delay
+	" Returns true if paste mode is enabled
+""-	CHAR	0
+	#unbind '"'
 
 # File marks:
-'0  1  0  /private/var/folders/rk/b1ymk69d3jngfc6gqydj3ls80000gn/T/tutoryU0q2w
-'1  38  0  ~/.tmux.conf
-'2  20  20  ~/.tmux.conf
-'3  1  9  ~/.tmux.conf
-'4  15  24  ~/.tmux.conf
-'5  1  9  ~/.tmux.conf
-'6  1  0  ~/tmux
-'7  172  0  ~/.tmux.conf
-'8  1  0  ~/tmux.conf
-'9  230  0  ~/.vimrc
+'0  8  10  ~/.gitignore
+'1  13  1  ~/.vimrc
+'2  9  1  ~/.vimrc
+'3  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 341/6/answers.pl
+'4  19  5  ~/.tmux.conf
+'5  119  0  ~/.vimrc
+'6  1  0  ~/vimr
+'7  18  0  ~/.tmux.conf
+'8  247  0  ~/.vimrc
+'9  82  0  ~/.vimrc
 
 # Jumplist (newest first):
+-'  8  10  ~/.gitignore
+-'  5  13  ~/.gitignore
+-'  13  1  ~/.vimrc
+-'  9  1  ~/.vimrc
+-'  204  16  ~/.vimrc
+-'  211  27  ~/.vimrc
+-'  209  16  ~/.vimrc
+-'  193  13  ~/.vimrc
+-'  137  73  ~/.vimrc
+-'  130  5  ~/.vimrc
+-'  109  0  ~/.vimrc
+-'  119  0  ~/.vimrc
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 341/6/answers.pl
+-'  19  5  ~/.tmux.conf
+-'  18  0  ~/.tmux.conf
+-'  1  0  ~/vimr
+-'  247  0  ~/.vimrc
+-'  41  0  ~/.tmux.conf
+-'  82  0  ~/.vimrc
+-'  10  0  ~/.vimrc
+-'  228  0  ~/.vimrc
+-'  9  30  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/config
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/config
+-'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
+-'  1  0  ~/Desktop/solve.py
+-'  76  14  ~/Desktop/solve.py
+-'  75  0  ~/Desktop/solve.py
 -'  1  0  /private/var/folders/rk/b1ymk69d3jngfc6gqydj3ls80000gn/T/tutoryU0q2w
--'  38  0  ~/.tmux.conf
--'  20  20  ~/.tmux.conf
 -'  1  9  ~/.tmux.conf
 -'  3  0  ~/.tmux.conf
 -'  4  5  ~/.tmux.conf
 -'  15  28  ~/.tmux.conf
--'  32  5  ~/.tmux.conf
 -'  35  5  ~/.tmux.conf
--'  36  5  ~/.tmux.conf
--'  172  0  ~/.tmux.conf
+-'  38  5  ~/.tmux.conf
+-'  39  5  ~/.tmux.conf
+-'  175  0  ~/.tmux.conf
 -'  1  0  ~/tmux
 -'  1  0  ~/tmux.conf
--'  230  0  ~/.vimrc
--'  83  0  ~/.vimrc
--'  79  4  ~/.vimrc
+-'  81  0  ~/.vimrc
+-'  77  4  ~/.vimrc
 -'  1  0  ~/.vimrc
--'  6  8  ~/.vimrc
--'  195  5  ~/.vimrc
--'  15  0  ~/.vimrc
--'  3  0  ~/.vimrc
--'  2  8  ~/.vimrc
+-'  4  8  ~/.vimrc
+-'  17  0  ~/.vimrc
 -'  1  0  ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/2/package.json
 -'  9  27  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/p3/source/1/server.js
@@ -179,7 +212,6 @@ $
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/envs/PyQuora/PyQuora/requirements.txt
 -'  2  12  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
 -'  8  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.git
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
 -'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.gitignore
 -'  1  0  ~/Desktop/Dropbox/Codebase/General/Sudo-Soldiers/WebDev/.git/MERGE_MSG
@@ -225,46 +257,104 @@ $
 -'  33  78  ~/.bash_profile
 -'  40  0  ~/.bash_profile
 -'  8  37  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
--'  1  22  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
--'  7  23  ~/Desktop/Dropbox/Codebase/General/envs/info/app/app.py
--'  20  242  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
--'  18  58  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
--'  15  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
--'  11  1  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
--'  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/problem7.txt
--'  5  17  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw3/answers/problem7.txt
--'  58  0  ~/.tmux.conf
+-'  13  1  ~/.vimrc
+
+# Buffer list:
+%~/.gitignore	8	10
 
 # History of marks within files (newest to oldest):
 
-> /private/var/folders/rk/b1ymk69d3jngfc6gqydj3ls80000gn/T/tutoryU0q2w
+> ~/.gitignore
+	"	8	10
+	^	8	11
+	.	8	10
+	+	1	16
+	+	6	0
+	+	7	8
+	+	6	0
+	+	8	10
+
+> ~/.vimrc
+	"	13	1
+	^	9	2
+	.	9	1
+	+	247	0
+	+	239	10
+	+	150	7
+	+	1	0
+	+	8	0
+	+	10	49
+	+	6	0
+	+	10	0
+	+	10	25
+	+	10	25
+	+	14	0
+	+	10	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	5	0
+	+	1	0
+	+	77	4
+	+	99	0
+	+	228	0
+	+	9	37
+	+	10	19
+	+	12	29
+	+	9	15
+	+	11	15
+	+	12	35
+	+	13	15
+	+	2	0
+	+	15	0
+	+	61	18
+	+	62	0
+	+	73	0
+	+	74	0
+	+	77	0
+	+	211	0
+	+	9	1
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 341/6/answers.pl
 	"	1	0
 
+> ~/NERD_tree_1
+	"	55	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
 > ~/.tmux.conf
-	"	38	0
-	^	38	0
-	.	32	0
+	"	19	5
+	^	19	6
+	.	19	5
 	+	1	0
 	+	1	0
 	+	1	0
-	+	39	0
+	+	42	0
 	+	1	0
-	+	172	2
-	+	164	0
-	+	166	0
+	+	175	2
 	+	167	0
-	+	168	0
 	+	169	0
-	+	165	0
 	+	170	0
 	+	171	0
 	+	172	0
-	+	164	0
-	+	167	0
 	+	168	0
+	+	173	0
+	+	174	0
+	+	175	0
+	+	167	0
+	+	170	0
 	+	171	0
-	+	172	0
+	+	174	0
+	+	175	0
 	+	1	3
 	+	8	0
 	+	6	7
@@ -276,15 +366,15 @@ $
 	+	15	41
 	+	15	25
 	+	15	41
-	+	38	0
+	+	41	0
 	+	3	0
 	+	1	0
 	+	1	0
 	+	15	0
 	+	15	0
 	+	15	0
-	+	20	20
-	+	20	20
+	+	19	20
+	+	19	20
 	+	1	0
 	+	15	0
 	+	15	0
@@ -292,11 +382,53 @@ $
 	+	17	0
 	+	16	45
 	+	18	19
-	+	20	19
-	+	20	20
-	+	22	0
-	+	20	19
-	+	32	0
+	+	19	19
+	+	19	20
+	+	25	0
+	+	19	19
+	+	35	0
+	+	18	21
+	+	19	21
+	+	17	0
+	+	18	0
+	+	19	0
+	+	19	0
+	+	20	26
+	+	23	96
+	+	20	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	19	0
+	+	18	20
+	+	19	21
+	+	16	44
+	+	19	5
+
+> ~/vimr
+	"	1	0
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/config
+	"	9	30
+	^	9	31
+	.	9	31
+	+	9	31
+
+> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
+	"	1	0
+
+> ~/Desktop/solve.py
+	"	1	0
+	^	1	1
+	.	1	0
+	+	76	0
+	+	4	0
+	+	1	0
+	z	1	0
+
+> /private/var/folders/rk/b1ymk69d3jngfc6gqydj3ls80000gn/T/tutoryU0q2w
+	"	1	0
 
 > ~/tmux
 	"	1	0
@@ -307,34 +439,6 @@ $
 	.	1	0
 	+	11	26
 	+	1	0
-
-> ~/.vimrc
-	"	230	0
-	^	6	9
-	.	230	0
-	+	249	0
-	+	241	10
-	+	152	7
-	+	1	0
-	+	10	0
-	+	11	49
-	+	8	0
-	+	11	0
-	+	11	25
-	+	11	25
-	+	12	0
-	+	11	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	7	0
-	+	1	0
-	+	79	4
-	+	101	0
-	+	230	0
 
 > ~/Desktop/Dropbox/Codebase/Python/RedditAgain/redditagain.py
 	"	1	0
@@ -425,9 +529,6 @@ $
 	+	3	5
 	+	4	0
 	+	3	0
-
-> ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/MERGE_MSG
-	"	1	0
 
 > ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/.git/COMMIT_EDITMSG
 	"	1	0
@@ -971,15 +1072,6 @@ $
 > ~/Desktop/test/.gitignore
 	"	43	0
 
-> ~/.gitignore
-	"	5	13
-	^	5	14
-	.	6	0
-	+	1	16
-	+	6	0
-	+	7	8
-	+	6	0
-
 > ~/.bashrc
 	"	1	0
 
@@ -994,56 +1086,3 @@ $
 
 > ~/Desktop/Dropbox/Codebase/Python/TPB/.git/COMMIT_EDITMSG
 	"	1	0
-
-> ~/Desktop/Dropbox/Codebase/Python/TPB/requirements.txt
-	"	33	0
-
-> ~/Desktop/Dropbox/UW/2. Sophomore/1. Autumn 2013/CSE 390A/hw6/gradeit.sh
-	"	42	0
-	^	42	0
-	.	42	0
-	+	42	0
-
-> ~/Desktop/Dropbox/Stuff/Admin/goel.im/.gitignore
-	"	1	8
-	^	1	9
-	.	1	8
-	+	1	8
-
-> ~/Desktop/Dropbox/Codebase/General/envs/hn_api/app.py
-	"	11	35
-	^	11	36
-	.	11	35
-	+	6	21
-	+	8	15
-	+	14	21
-	+	1	9
-	+	1	0
-	+	4	0
-	+	1	17
-	+	3	0
-	+	4	18
-	+	8	19
-	+	9	10
-	+	11	11
-	+	10	12
-	+	11	26
-	+	3	31
-	+	11	35
-	+	4	6
-	+	11	35
-	z	11	35
-
-> ~/Desktop/Dropbox/UW/Sudo Soldiers/Meetup 1/README.md
-	"	7	62
-	^	7	63
-	.	7	30
-	+	1	0
-	+	2	0
-	+	1	25
-	+	4	76
-	+	3	1
-	+	4	79
-	+	5	65
-	+	6	68
-	+	7	30

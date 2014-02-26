@@ -1,5 +1,3 @@
-
-
 set history=700
 
 execute pathogen#infect()
@@ -8,7 +6,11 @@ syntax on
 filetype plugin on
 filetype indent on
 
-
+" set cursorline  " highlight cursor line
+set background=dark
+set nobackup    " dont create pointless backup files
+set number      " show line numbers
+set scrolloff=5
 
 set autoread
 
@@ -57,7 +59,6 @@ set tm=500
 syntax enable
 
 colorscheme desert
-set background=dark
 
 if has("gui_running")
     set guioptions-=T
@@ -70,11 +71,8 @@ set encoding=utf8
 
 set ffs=unix,dos,mac
 
-
-set nobackup
 set nowb
 set noswapfile
-
 
 set expandtab
 
