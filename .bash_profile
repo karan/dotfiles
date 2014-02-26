@@ -53,5 +53,6 @@ function g() {
     git push;
 }
 
-# git init also created my gitignore file
-alias "giti"="git init && curl https://gist.github.com/thekarangoel/7540861/raw/81825d58c7c597865861e7e7828651fdfc5d1867/gitignore > .gitignore"
+if [[ ! $TERM =~ screen ]]; then
+    exec tmux
+fi

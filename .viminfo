@@ -18,6 +18,8 @@ $
 
 # Command Line History (newest to oldest):
 :wq
+:=
+:e .bash_profile
 :q!
 :NERDTree
 :set paste
@@ -78,8 +80,10 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	fullname
+"0	LINE	0
+	if [[ ! $TERM =~ screen ]]; then
+	    exec tmux
+	fi
 "1	LINE	0
 	
 "2	LINE	0
@@ -143,21 +147,33 @@ $
 "9	LINE	0
 	" Returns true if paste mode is enabled
 ""-	CHAR	0
-	#unbind '"'
+	alias "giti"="git init && curl https://gist.github.com/thekarangoel/7540861/raw/81825d58c7c597865861e7e7828651fdfc5d1867/gitignore > .gitignore"
 
 # File marks:
-'0  8  10  ~/.gitignore
-'1  13  1  ~/.vimrc
-'2  9  1  ~/.vimrc
-'3  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 341/6/answers.pl
-'4  19  5  ~/.tmux.conf
-'5  119  0  ~/.vimrc
-'6  1  0  ~/vimr
-'7  18  0  ~/.tmux.conf
-'8  247  0  ~/.vimrc
-'9  82  0  ~/.vimrc
+'0  86  1  ~/.viminfo
+'1  1097  1  ~/.viminfo
+'2  58  1  ~/.bash_profile
+'3  3  1  ~/.bashrc
+'4  8  10  ~/.gitignore
+'5  13  1  ~/.vimrc
+'6  9  1  ~/.vimrc
+'7  1  0  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 341/6/answers.pl
+'8  19  5  ~/.tmux.conf
+'9  119  0  ~/.vimrc
 
 # Jumplist (newest first):
+-'  86  1  ~/.viminfo
+-'  1097  1  ~/.viminfo
+-'  78  152  ~/.viminfo
+-'  48  2  ~/.viminfo
+-'  19  10  ~/.viminfo
+-'  11  8  ~/.viminfo
+-'  1  11  ~/.viminfo
+-'  58  1  ~/.bash_profile
+-'  50  0  ~/.bash_profile
+-'  31  11  ~/.bash_profile
+-'  1  0  ~/.bashrc
+-'  3  1  ~/.bashrc
 -'  8  10  ~/.gitignore
 -'  5  13  ~/.gitignore
 -'  13  1  ~/.vimrc
@@ -232,7 +248,6 @@ $
 -'  10  0  ~/Desktop/ish/Pres/package.json
 -'  1  0  ~/Desktop/ish/Pres/package.json
 -'  38  0  ~/.bash_profile
--'  56  0  ~/.bash_profile
 -'  2  0  ~/Desktop/test.py
 -'  1  0  ~/Desktop/test.py
 -'  3  6  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 331/cse331/src/hw4/answers/problem5.txt
@@ -246,23 +261,95 @@ $
 -'  3  24  ~/Desktop/sudo/.git/COMMIT_EDITMSG
 -'  1  0  ~/Desktop/sudo/.git/COMMIT_EDITMSG
 -'  1  8  ~/Desktop/WebDev/.gitignore
--'  1  0  ~/Desktop/WebDev/.gitignor
--'  6  6  ~/Desktop/double.hs
--'  8  17  ~/Desktop/double.hs
--'  2  13  ~/Desktop/double.hs
--'  1  0  ~/Desktop/double.hs
--'  1  0  ~/Desktop/Dropbox/Codebase/General/goel.im/.git/COMMIT_EDITMSG
--'  12  0  /private/etc/hosts
--'  1  6  ~/Desktop/ZipUp/.git/MERGE_MSG
--'  33  78  ~/.bash_profile
--'  40  0  ~/.bash_profile
--'  8  37  ~/Desktop/Dropbox/UW/2. Sophomore/2. Winter 2014/CSE 332/Projects/CSE332-Projects-2-3/README.md
--'  13  1  ~/.vimrc
 
 # Buffer list:
-%~/.gitignore	8	10
+%~/.viminfo	86	1
 
 # History of marks within files (newest to oldest):
+
+> ~/.viminfo
+	"	86	1
+	.	78	0
+	+	78	0
+
+> ~/.bashrc
+	"	1	0
+	^	3	2
+	.	3	1
+	+	3	1
+
+> ~/.bash_profile
+	"	58	1
+	^	58	2
+	.	59	0
+	+	88	72
+	+	89	0
+	+	117	41
+	+	1	2
+	+	89	0
+	+	91	31
+	+	92	38
+	+	93	32
+	+	92	41
+	+	91	12
+	+	93	36
+	+	114	33
+	+	117	16
+	+	75	33
+	+	28	33
+	+	59	10
+	+	32	0
+	+	38	0
+	+	30	1
+	+	39	66
+	+	40	0
+	+	55	0
+	+	55	0
+	+	51	10
+	+	50	73
+	+	54	12
+	+	16	28
+	+	19	47
+	+	19	0
+	+	18	0
+	+	17	0
+	+	20	0
+	+	19	10
+	+	18	10
+	+	17	27
+	+	18	27
+	+	40	0
+	+	43	21
+	+	44	28
+	+	49	0
+	+	45	43
+	+	46	0
+	+	45	52
+	+	42	8
+	+	46	34
+	+	47	25
+	+	46	18
+	+	35	24
+	+	36	53
+	+	21	29
+	+	22	31
+	+	32	0
+	+	33	79
+	+	39	0
+	+	38	51
+	+	38	51
+	+	38	51
+	+	38	51
+	+	39	21
+	+	39	49
+	+	23	51
+	+	23	51
+	+	24	0
+	+	23	11
+	+	56	0
+	+	58	2
+	+	58	2
+	+	59	0
 
 > ~/.gitignore
 	"	8	10
@@ -558,75 +645,6 @@ $
 	+	1	36
 	+	3	44
 	+	1	0
-
-> ~/.bash_profile
-	"	23	11
-	^	23	12
-	.	23	11
-	+	87	72
-	+	88	0
-	+	116	41
-	+	1	2
-	+	88	0
-	+	90	31
-	+	91	38
-	+	92	32
-	+	91	41
-	+	90	12
-	+	92	36
-	+	113	33
-	+	116	16
-	+	74	33
-	+	28	33
-	+	58	10
-	+	32	0
-	+	38	0
-	+	30	1
-	+	39	66
-	+	40	0
-	+	55	0
-	+	55	0
-	+	51	10
-	+	50	73
-	+	54	12
-	+	16	28
-	+	19	47
-	+	19	0
-	+	18	0
-	+	17	0
-	+	20	0
-	+	19	10
-	+	18	10
-	+	17	27
-	+	18	27
-	+	40	0
-	+	43	21
-	+	44	28
-	+	49	0
-	+	45	43
-	+	46	0
-	+	45	52
-	+	42	8
-	+	46	34
-	+	47	25
-	+	46	18
-	+	35	24
-	+	36	53
-	+	21	29
-	+	22	31
-	+	32	0
-	+	33	79
-	+	39	0
-	+	38	51
-	+	38	51
-	+	38	51
-	+	38	51
-	+	39	21
-	+	39	49
-	+	23	51
-	+	23	51
-	+	24	0
-	+	23	11
 
 > ~/Desktop/Dropbox/Codebase/JS/s/.gitignore
 	"	1	1
@@ -1072,9 +1090,6 @@ $
 > ~/Desktop/test/.gitignore
 	"	43	0
 
-> ~/.bashrc
-	"	1	0
-
 > ~/Desktop/Dropbox/Codebase/General/envs/whattweet/What-Would-I-Tweet/.git/COMMIT_EDITMSG
 	"	4	0
 	^	4	0
@@ -1082,7 +1097,4 @@ $
 	+	3	58
 
 > ~/Desktop/Dropbox/Codebase/General/startbootstrap/.git/MERGE_MSG
-	"	1	0
-
-> ~/Desktop/Dropbox/Codebase/Python/TPB/.git/COMMIT_EDITMSG
 	"	1	0
