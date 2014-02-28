@@ -58,7 +58,8 @@ set tm=500
 
 syntax enable
 
-colorscheme desert
+" let g:molokai_original=1
+colorscheme monokai
 
 if has("gui_running")
     set guioptions-=T
