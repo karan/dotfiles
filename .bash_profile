@@ -21,6 +21,7 @@ alias aeb="ssh kgoel@aeb.cs.washington.edu" # probably during dead week?
 alias abelay="ssh kgoel@abelay.cs.washington.edu"
 alias semanti="ssh kgoel@semanti.cs.washington.edu"
 alias ananth="ssh kgoel@ananth.cs.washington.edu"
+alias alistair="ssh kgoel@alistair.cs.washington.edu"
 
 # cd into most used dirs
 alias dropbox="cd ~/Desktop/Dropbox"
@@ -45,6 +46,7 @@ alias gc="git commit -m "$1""
 alias gp="git push $1 $2" # gp OR gp [remote] [branch]
 alias gt="git tag "$1""
 alias gtp="git push --tags"
+alias pull="git pull"
 
 # add all changes from working tree to stage, commit them with message and push them
 function g() {
@@ -52,6 +54,10 @@ function g() {
     git commit -m "$1";
     git push;
 }
+
+export PATH=${PATH}:~/Documents/adt-bundle/sdk/platform-tools:~/Documents/adt-bundle/sdk/tools
+
+alias chromex="open /Applications/Google\ Chrome.app --args --allow-file-access-from-files --disable-web-security"
 
 #if [[ ! $TERM =~ screen ]]; then
 #    exec tmux
