@@ -3,14 +3,18 @@
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
 
+export PATH=${PATH}:~/Documents/adt-bundle/sdk/platform-tools:~/Documents/adt-bundle/sdk/tools
+
 # Coloring bash
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export PS1="\[\e[0;31m\]\u\[\e[m\]:\[\e[0;37m\]\W\[\e[m\]$ "
 
 # setup path for virtualenvwrapper
-export WORKON_HOME=~/Desktop/Dropbox/Codebase/General/envs
+export WORKON_HOME=~/Dropbox/Codebase/General/envs
 source /usr/local/bin/virtualenvwrapper.sh
+
+alias serve="python -m SimpleHTTPServer"
 
 #ssh into uw cse servers as me
 alias attu1="ssh kgoel@attu1.cs.washington.edu"
@@ -22,11 +26,11 @@ alias abelay="ssh kgoel@abelay.cs.washington.edu"
 alias semanti="ssh kgoel@semanti.cs.washington.edu"
 alias ananth="ssh kgoel@ananth.cs.washington.edu"
 alias alistair="ssh kgoel@alistair.cs.washington.edu"
+alias crope="ssh kgoel@crope.cs.washington.edu"
 
 # cd into most used dirs
-alias dropbox="cd ~/Desktop/Dropbox"
-alias codebase="cd ~/Desktop/Dropbox/Codebase"
-alias uw="cd ~/Desktop/Dropbox/UW"
+alias codebase="cd ~/Dropbox/Codebase"
+alias uw="cd ~/Dropbox/UW"
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -37,28 +41,26 @@ alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
 alias mkv3="mkvirtualenv -p /usr/local/bin/python3 $1"
 
 # Print a tree representation of the current folder
-alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
+#alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 
 # Git aliases
 alias gs="git status"
-alias ga="git add -A"
+alias ga="git add -A :/"
 alias gc="git commit -m "$1""
 alias gp="git push $1 $2" # gp OR gp [remote] [branch]
+alias pull="git pull"
 alias gt="git tag "$1""
 alias gtp="git push --tags"
 alias pull="git pull"
+alias co="git checkout"
+alias b="git branch"
 
 # add all changes from working tree to stage, commit them with message and push them
 function g() {
-    git add -A;
+    git add -A :/;
     git commit -m "$1";
     git push;
 }
 
-export PATH=${PATH}:~/Documents/adt-bundle/sdk/platform-tools:~/Documents/adt-bundle/sdk/tools
-
 alias chromex="open /Applications/Google\ Chrome.app --args --allow-file-access-from-files --disable-web-security"
-
-#if [[ ! $TERM =~ screen ]]; then
-#    exec tmux
-#fi
+#alias tmux="TERM=screen-256color-bce tmux"
