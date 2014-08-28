@@ -46,6 +46,7 @@ alias mkv3="mkvirtualenv -p /usr/local/bin/python3 $1"
 # Git aliases
 alias gs="git status"
 alias ga="git add -A :/"
+alias gb="git branch"
 alias gc="git commit -m "$1""
 alias gp="git push $1 $2" # gp OR gp [remote] [branch]
 alias pull="git pull"
@@ -53,7 +54,6 @@ alias gt="git tag "$1""
 alias gtp="git push --tags"
 alias pull="git pull"
 alias co="git checkout"
-alias b="git branch"
 
 # add all changes from working tree to stage, commit them with message and push them
 function g() {
@@ -64,3 +64,17 @@ function g() {
 
 alias chromex="open /Applications/Google\ Chrome.app --args --allow-file-access-from-files --disable-web-security"
 #alias tmux="TERM=screen-256color-bce tmux"
+
+alias tunnel="~/Documents/ngrok -authtoken aSj1MW5kY5LdU10Tc01p"
+
+##
+# Your previous /Users/karan/.bash_profile file was backed up as /Users/karan/.bash_profile.macports-saved_2014-07-13_at_08:53:55
+##
+
+# MacPorts Installer addition on 2014-07-13_at_08:53:55: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+fi
