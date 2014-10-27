@@ -3,7 +3,7 @@
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
 
-export PATH=${PATH}:~/Documents/adt-bundle/sdk/platform-tools:~/Documents/adt-bundle/sdk/tools
+export PATH=${PATH}:~/Documents/adt-bundle-mac-x86_64-20140702/sdk/platform-tools:~/Documents/adt-bundle-mac-x86_64-20140702/sdk/tools
 
 # Coloring bash
 export CLICOLOR=1
@@ -78,3 +78,6 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
 fi
+
+alias l="ls"
+alias ll="ls -l"
