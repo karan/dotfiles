@@ -30,7 +30,7 @@ alias crope="ssh kgoel@crope.cs.washington.edu"
 
 # cd into most used dirs
 alias codebase="cd ~/Dropbox/Codebase"
-alias uw="cd ~/Dropbox/UW"
+alias uw="cd ~/Google\ Drive/UW"
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -81,3 +81,12 @@ fi
 
 alias l="ls"
 alias ll="ls -l"
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/karan/google-cloud-sdk/path.bash.inc'
+
+# The next line enables bash completion for gcloud.
+source '/Users/karan/google-cloud-sdk/completion.bash.inc'
+
+# Pebble SDK
+export PATH="/Users/karan/pebble-dev/PebbleSDK-current/bin:$PATH"

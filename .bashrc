@@ -8,3 +8,4 @@ BASH_COMPLETION="${BASH_COMPLETION:-/etc/bash_completion}"
 
 
 alias tmux="TERM=screen-256color-bce tmux"
+PATH="$PATH:/Users/karan/Documents/flow/"
