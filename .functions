@@ -1,0 +1,34 @@
+# Create a new directory and enter it
+function mkd() {
+  mkdir -p "$@" && cd "$_";
+}
+
+# Create a git.io short URL
+function gitio() {
+  if [ -z "${1}" -o -z "${2}" ]; then
+    echo "Usage: \`gitio slug url\`";
+    return 1;
+  fi;
+  curl -i http://git.io/ -F "url=${2}" -F "code=${1}";
+}
+
+# `s` with no arguments opens the current directory in Sublime Text, otherwise
+# opens the given location
+function s() {
+  if [ $# -eq 0 ]; then
+    subl .;
+  else
+    subl "$@";
+  fi;
+}
+
+# `o` with no arguments opens the current directory, otherwise opens the given
+# location
+function o() {
+  if [ $# -eq 0 ]; then
+    open .;
+  else
+    open "$@";
+  fi;
+}
+

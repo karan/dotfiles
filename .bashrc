@@ -4,7 +4,7 @@ export PATH="$HOME/bin:$PATH";
 BASH_COMPLETION="${BASH_COMPLETION:-/etc/bash_completion}"
 
 # Load the shell dotfiles, and then some:
-for file in ~/.{aliases,bash_prompt,exports}; do
+for file in ~/.{aliases,bash_prompt,exports,functions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 
