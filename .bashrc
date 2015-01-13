@@ -1,10 +1,10 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
-# BASH_COMPLETION="${BASH_COMPLETION:-/etc/bash_completion}"
+BASH_COMPLETION="${BASH_COMPLETION:-/etc/bash_completion}"
 
 # Load the shell dotfiles, and then some:
-for file in ~/.{aliases,bash_prompt}; do
+for file in ~/.{aliases,bash_prompt,exports}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 
