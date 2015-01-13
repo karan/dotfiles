@@ -2,7 +2,7 @@
 export PATH="$HOME/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
-for file in ~/.{aliases,bash_prompt,exports,functions}; do
+for file in ~/.{aliases,bash_prompt,exports,functions,extra}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 
