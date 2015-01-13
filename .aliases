@@ -1,0 +1,58 @@
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Shortcuts
+alias d="cd ~/Desktop"
+alias c="cd ~/Dropbox/Codebase"
+
+# List only directories
+alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+
+# start a local python server
+alias serve="python -m SimpleHTTPServer"
+
+#ssh into uw cse servers as me
+alias attu1="ssh kgoel@attu1.cs.washington.edu"
+alias attu2="ssh kgoel@attu2.cs.washington.edu"
+alias attu3="ssh kgoel@attu3.cs.washington.edu"
+alias attu4="ssh kgoel@attu4.cs.washington.edu"
+alias aeb="ssh kgoel@aeb.cs.washington.edu" # probably during dead week?
+alias abelay="ssh kgoel@abelay.cs.washington.edu"
+alias semanti="ssh kgoel@semanti.cs.washington.edu"
+alias ananth="ssh kgoel@ananth.cs.washington.edu"
+alias alistair="ssh kgoel@alistair.cs.washington.edu"
+alias crope="ssh kgoel@crope.cs.washington.edu"
+
+# start sublime
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+# make py3 virtual env
+alias mkv3="mkvirtualenv -p /usr/local/bin/python3 $1"
+
+# Git aliases
+alias gs="git status"
+alias ga="git add -A :/"
+alias gb="git branch"
+alias gc="git commit -m "$1""
+
+# add color to tmux
+alias tmux="TERM=screen-256color-bce tmux"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Empty the Trash on all mounted volumes and the main HDD
+# Also, clear Apple’s System Logs to improve shell startup speed
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
+
+# Make Grunt print stack traces by default
+command -v grunt > /dev/null && alias grunt="grunt --stack"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
