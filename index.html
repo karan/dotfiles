@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Dotfiles by karan</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Dotfiles</h1>
+        <p>~/* - all my dotfiles with bootstrapping script. 10X productivity gains. :heart:</p>
+
+        <p class="view"><a href="https://github.com/karan/dotfiles">View the Project on GitHub <small>karan/dotfiles</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/karan/dotfiles/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/karan/dotfiles/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/karan/dotfiles">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="karans-dotfiles" class="anchor" href="#karans-dotfiles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Karan's dotfiles</h1>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a id="using-git-and-the-bootstrap-script" class="anchor" href="#using-git-and-the-bootstrap-script" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using Git and the bootstrap script</h3>
+
+<p>You can clone the repository wherever you want. The bootstrapper script will pull in the latest version and copy the files to your home folder.</p>
+
+<div class="highlight highlight-bash"><pre>git clone https://github.com/karan/dotfiles.git <span class="pl-k">&amp;&amp;</span> <span class="pl-s3">cd</span> dotfiles <span class="pl-k">&amp;&amp;</span> <span class="pl-s3">source</span> bootstrap.sh</pre></div>
+
+<p>To update, <code>cd</code> into your local <code>dotfiles</code> repository and then:</p>
+
+<div class="highlight highlight-bash"><pre><span class="pl-s3">source</span> bootstrap.sh</pre></div>
+
+<p>Alternatively, to update while avoiding the confirmation prompt:</p>
+
+<div class="highlight highlight-bash"><pre><span class="pl-s3">set</span> -- -f<span class="pl-k">;</span> <span class="pl-s3">source</span> bootstrap.sh</pre></div>
+
+<h3>
+<a id="git-free-install" class="anchor" href="#git-free-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git-free install</h3>
+
+<p>To install these dotfiles without Git:</p>
+
+<div class="highlight highlight-bash"><pre><span class="pl-s3">cd</span><span class="pl-k">;</span> curl -#L https://github.com/karan/dotfiles/tarball/master <span class="pl-k">|</span> tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE-MIT.txt}</pre></div>
+
+<p>To update later on, just run that command again.</p>
+
+<h3>
+<a id="install-homebrew-formulae" class="anchor" href="#install-homebrew-formulae" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install Homebrew formulae</h3>
+
+<p>When setting up a new Mac, you may want to install some common <a href="http://brew.sh/">Homebrew</a> formulae (after installing Homebrew, of course):</p>
+
+<div class="highlight highlight-bash"><pre>./brew.sh</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/karan">karan</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
