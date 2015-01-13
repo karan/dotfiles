@@ -38,6 +38,11 @@ alias gs="git status"
 alias ga="git add -A :/"
 alias gb="git branch"
 alias gc="git commit -m "$1""
+alias gp="git push $1 $2" # gp OR gp [remote] [branch]
+alias pull="git pull"
+alias gt="git tag "$1""
+alias gpt="git push --tags"
+alias co="git checkout"
 
 # add color to tmux
 alias tmux="TERM=screen-256color-bce tmux"
