@@ -19,3 +19,7 @@ export MANPAGER='less -X';
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
+
+# setup path for virtualenvwrapper
+export WORKON_HOME=~/Dropbox/Codebase/General/envs
+source /usr/local/bin/virtualenvwrapper.sh
