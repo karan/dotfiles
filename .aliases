@@ -11,6 +11,8 @@ alias c="cd ~/Dropbox/Codebase"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+alias l="ls"
+alias ll="ls -al"
 
 # start a local python server
 alias serve="python -m SimpleHTTPServer"
