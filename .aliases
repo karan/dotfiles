@@ -17,18 +17,6 @@ alias ll="ls -al"
 # start a local python server
 alias serve="python -m SimpleHTTPServer"
 
-#ssh into uw cse servers as me
-alias attu1="ssh kgoel@attu1.cs.washington.edu"
-alias attu2="ssh kgoel@attu2.cs.washington.edu"
-alias attu3="ssh kgoel@attu3.cs.washington.edu"
-alias attu4="ssh kgoel@attu4.cs.washington.edu"
-alias aeb="ssh kgoel@aeb.cs.washington.edu" # probably during dead week?
-alias abelay="ssh kgoel@abelay.cs.washington.edu"
-alias semanti="ssh kgoel@semanti.cs.washington.edu"
-alias ananth="ssh kgoel@ananth.cs.washington.edu"
-alias alistair="ssh kgoel@alistair.cs.washington.edu"
-alias crope="ssh kgoel@crope.cs.washington.edu"
-
 # start sublime
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
