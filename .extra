@@ -1,0 +1,4 @@
+alias nw="~/Documents/nw/node-webkit.app/Contents/MacOS/node-webkit"
+
+# add autojump
+[[ -s $(brew --prefix)/etc/autojump.sh ]] && . $(brew --prefix)/etc/autojump.sh

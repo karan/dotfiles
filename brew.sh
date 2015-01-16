@@ -73,6 +73,7 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
+brew install autojump
 #brew install exiv2
 brew install git
 brew install imagemagick --with-webp
