@@ -21,6 +21,5 @@ export MANPAGER='less -X';
 export GREP_OPTIONS='--color=auto';
 
 # setup path for virtualenvwrapper
-export WORKON_HOME=$HOME/Google\ Drive/Codebase/Python/envs
+export WORKON_HOME=$HOME/Drive/Codebase/Python/envs
 source /usr/local/bin/virtualenvwrapper.sh
-export VIRTUALENVWRAPPER_HOOK_DIR=$HOME/Google\ Drive/Codebase/Python/envs
