@@ -21,7 +21,7 @@ alias serve="python -m SimpleHTTPServer"
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
 # make py3 virtual env
-alias mkv3="mkvirtualenv -p /usr/local/bin/python3 $1"
+alias mkv3="mkvirtualenv -p /usr/local/bin/python3.4 $1"
 
 # Git aliases
 alias gs="git status"
