@@ -3,7 +3,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias -- -="cd -"
+alias -="cd -"
 
 # Shortcuts
 alias d="cd ~/Desktop"
@@ -11,6 +11,7 @@ alias c="cd ~/Drive/Codebase"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+
 alias l="ls"
 alias ll="ls -al"
 
@@ -19,9 +20,6 @@ alias serve="python -m SimpleHTTPServer"
 
 # start sublime
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
-
-# make py3 virtual env
-alias mkv3="mkvirtualenv -p /usr/local/bin/python3.4 $1"
 
 # Git aliases
 alias gs="git status"

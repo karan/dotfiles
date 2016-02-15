@@ -35,8 +35,6 @@ fi;
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
 # set path for android studio
-export PATH=${PATH}:~/Documents/adt-bundle-mac-x86_64-20140702/sdk/platform-tools:~/Documents/adt-bundle-mac-x86_64-20140702/sdk/tools
+export PATH=${PATH}:~/Documents/sdk/tools:~/Documents/sdk/platform-tools
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-# add path for flow
-PATH="$PATH:/Users/karan/Documents/flow/"

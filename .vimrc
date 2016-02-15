@@ -58,8 +58,10 @@ set tm=500
 
 syntax enable
 
-" let g:molokai_original=1
-colorscheme monokai
+" Use the Solarized Dark theme
+set background=dark
+colorscheme solarized
+let g:solarized_termtrans=1
 
 if has("gui_running")
     set guioptions-=T
