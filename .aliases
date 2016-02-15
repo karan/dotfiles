@@ -3,7 +3,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias -="cd -"
 
 # Shortcuts
 alias d="cd ~/Desktop"
