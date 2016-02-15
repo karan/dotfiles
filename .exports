@@ -23,3 +23,6 @@ export GREP_OPTIONS='--color=auto';
 # setup path for virtualenvwrapper
 export WORKON_HOME=$HOME/Drive/Codebase/Python/envs
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Gopath
+export GOPATH=~/go
