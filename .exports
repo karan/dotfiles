@@ -26,3 +26,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # Gopath
 export GOPATH=~/go
+
+# Python env variable
+export PYTHONPATH=`brew --prefix`/lib/python2.7/site-packages:$PYTHONPATH
