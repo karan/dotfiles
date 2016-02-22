@@ -29,3 +29,9 @@ export GOPATH=~/go
 
 # Python env variable
 export PYTHONPATH=`brew --prefix`/lib/python2.7/site-packages:$PYTHONPATH
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/karan/google-cloud-sdk/path.bash.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/Users/karan/google-cloud-sdk/completion.bash.inc'
