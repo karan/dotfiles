@@ -35,3 +35,6 @@ source '/Users/karan/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
 source '/Users/karan/google-cloud-sdk/completion.bash.inc'
+
+# Setup flutter.io
+export PATH=/Users/karan/Documents/flutter/bin:$PATH
