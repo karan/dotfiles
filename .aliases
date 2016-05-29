@@ -6,7 +6,7 @@ alias .....="cd ../../../.."
 
 # Shortcuts
 alias d="cd ~/Desktop"
-alias c="cd ~/Drive/Codebase"
+alias c="cd ~/codebase"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
