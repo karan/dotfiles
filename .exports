@@ -28,7 +28,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 export GOPATH=~/go
 
 # Python env variable
-export PYTHONPATH=`brew --prefix`/lib/python2.7/site-packages:$PYTHONPATH
+# export PYTHONPATH=`brew --prefix`/lib/python2.7/site-packages:$PYTHONPATH
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/karan/google-cloud-sdk/path.bash.inc'
