@@ -1,5 +1,11 @@
 root = true
 
+[*.{py,rst,txt}]
+indent_style = space
+trim_trailing_whitespace = true
+indent_size = 4
+end_of_line = LF
+
 [*]
 charset = utf-8
 indent_style = tab
