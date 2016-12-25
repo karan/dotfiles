@@ -20,7 +20,7 @@ alias l="ls"
 alias ll="ls -al"
 
 # start a local python server
-alias serve="python3 -m http.serve"
+alias serve="python3 -m http.server"
 
 # start sublime
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
