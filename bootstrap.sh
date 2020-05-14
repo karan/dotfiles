@@ -2,11 +2,22 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin master;
-
 function doIt() {
-  rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-    --exclude "README.md" --exclude "LICENSE" -avh --no-perms . ~;
+  rsync --exclude ".git/" \
+    --exclude ".DS_Store" \
+    --exclude "bootstrap.sh" \
+    --exclude "brew.list" \
+    --exclude "brew.sh" \
+    --exclude "LICENSE" \
+    --exclude "mac-defaults.sh" \
+    --exclude "README.md" \
+    -avh --no-perms . ~;
+
+  echo "Setting mac defaults..."
+  ./mac-defaults.sh
+
+  echo "Installing brew packages..."
+  ./brew.sh
   source ~/.bash_profile;
 }
 

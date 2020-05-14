@@ -20,10 +20,6 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
-# setup path for virtualenvwrapper
-export WORKON_HOME=$HOME/codebase/Python/envs
-source /usr/local/bin/virtualenvwrapper.sh
-
 # Gopath
 export GOPATH=~/go
 
@@ -35,6 +31,3 @@ source '/Users/karan/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
 source '/Users/karan/google-cloud-sdk/completion.bash.inc'
-
-# Setup flutter.io
-export PATH=/Users/karan/Documents/flutter/bin:$PATH

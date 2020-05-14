@@ -4,7 +4,7 @@
   l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
   # View the current working tree status using the short format
-  s = status -s
+  s = status
 
   # Show the diff between the latest commit and the current state
   d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
@@ -143,28 +143,21 @@
 # URL shorthands
 
 [url "git@github.com:"]
-
   insteadOf = "gh:"
   pushInsteadOf = "github:"
   pushInsteadOf = "git://github.com/"
 
 [url "git://github.com/"]
-
   insteadOf = "github:"
 
 [url "git@gist.github.com:"]
-
   insteadOf = "gst:"
   pushInsteadOf = "gist:"
   pushInsteadOf = "git://gist.github.com/"
 
 [url "git://gist.github.com/"]
-
   insteadOf = "gist:"
 
-[user]
-	name = Karan Goel
-	email = karan@goel.io
-
-[GitHub]
-	user = karan
+# Local/private config goes in the include
+[include]
+  path = ~/.gitconfig.local

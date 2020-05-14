@@ -1,5 +1,20 @@
+export PATH="/usr/local/opt/curl/bin:$PATH"
+
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+# Add curl to PATH from brew
+export PATH="/usr/local/opt/curl/bin:$PATH"
+
+# Add ruby to PATH
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 for file in ~/.{aliases,bash_prompt,exports,functions,extra}; do
@@ -30,11 +45,4 @@ fi;
 # add autojump
 [[ -s $(brew --prefix)/etc/autojump.sh ]] && . $(brew --prefix)/etc/autojump.sh
 
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-# PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
-# set path for android studio
-export PATH=${PATH}:~/Documents/sdk/tools:~/Documents/sdk/platform-tools
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
