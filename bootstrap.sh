@@ -3,13 +3,12 @@
 cd "$(dirname "${BASH_SOURCE}")";
 
 function doIt() {
-  rsync --exclude ".git/" \
+  rsync \
+    --exclude ".git/" \
     --exclude ".DS_Store" \
-    --exclude "bootstrap.sh" \
+    --exclude "*.sh" \
     --exclude "brew.list" \
-    --exclude "brew.sh" \
     --exclude "LICENSE" \
-    --exclude "mac-defaults.sh" \
     --exclude "README.md" \
     -avh --no-perms . ~;
 

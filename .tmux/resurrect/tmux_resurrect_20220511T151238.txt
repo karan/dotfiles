@@ -1,0 +1,7 @@
+pane	main	1	:fresh-client	1	:*	1	:/google/src/cloud/karangoel/fresh-client/google3	0	bash	:
+pane	main	1	:fresh-client	1	:*	2	:/google/src/cloud/karangoel/fresh-client/google3	1	bash	:
+pane	main	2	:vico1	0	:-	1	:/google/src/cloud/karangoel/vico1/google3	0	bash	:
+pane	main	2	:vico1	0	:-	2	:/google/src/cloud/karangoel/vico1/google3	1	bash	:
+window	main	1	1	:*	70fa,364x78,0,0{184x78,0,0,1,179x78,185,0,2}
+window	main	2	0	:-	e7f5,364x78,0,0{183x78,0,0,3,180x78,184,0,5}
+state	main	

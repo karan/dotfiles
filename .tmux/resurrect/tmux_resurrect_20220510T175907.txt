@@ -1,0 +1,11 @@
+pane	main	1	:fresh-client	1	:*	1	:/google/src/cloud/karangoel/fresh-client/google3	0	bash	:
+pane	main	1	:fresh-client	1	:*	2	:/google/src/cloud/karangoel/fresh-client/google3	1	bash	:
+pane	main	2	:vico1	0	:-	1	:/cloud/karangoel/vico1/google3/configs/cloud/gong/services/vico/data_export/envs/preprod/digital_wellbeing	1	bash	:
+pane	main	2	:vico1	0	:-	2	:/cloud/karangoel/fresh-client/google3	0	bash	:
+pane	main	2	:vico1	0	:-	3	:/usr/local/google/home/karangoel/bin	0	bash	:
+pane	main	3	:bash	0	:	1	:/cloud/karangoel/oncallator-1649947541081/google3	1	bash	:
+pane	main	3	:bash	0	:	2	:/cloud/karangoel/oncallator-1649947541081/google3	0	bash	:
+window	main	1	1	:*	73c6,80x22,0,0{42x22,0,0,2,37x22,43,0,3}
+window	main	2	0	:-	7de3,364x78,0,0{183x78,0,0,4,180x78,184,0[180x37,184,0,5,180x40,184,38,6]}
+window	main	3	0	:	5f8b,364x78,0,0{182x78,0,0,7,181x78,183,0,8}
+state	main	

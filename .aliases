@@ -13,6 +13,7 @@ alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
 alias l="ls"
 alias ll="ls -al"
+alias la='ls -A'
 
 # start a local python server
 alias serve="python3 -m http.server"
@@ -54,7 +55,7 @@ alias img="~/bin/imguru"
 alias reload="exec $SHELL -l"
 
 # youtube-dl will use aria2c with 16 parallel connections
-alias youtube-dl="youtube-dl --external-downloader=aria2c --external-downloader-args '--continue=true --max-concurrent-downloads=16 --max-connection-per-server=16 --split=18 -k 1M'"
+alias youtube-dl="yt-dlp --downloader=aria2c --downloader-args aria2c:'--continue=true --max-concurrent-downloads=16 --max-connection-per-server=16 --split=18 -k 1M'"
 
 # rclone with verbose logging
 alias rclone="rclone -v --stats=60s"
@@ -63,3 +64,7 @@ alias sudo='sudo '
 
 alias python="python3"
 alias pip="pip3"
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'

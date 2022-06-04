@@ -2,14 +2,15 @@ set history=1000
 
 execute pathogen#infect()
 syntax on
-
-filetype plugin on
-filetype indent on
+filetype plugin indent on
 
 set cursorline  " highlight cursor line
 set nobackup    " dont create pointless backup files
 set number      " show line numbers
 set scrolloff=7
+
+" enables mouse in all modes
+set mouse=a
 
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backups
@@ -274,3 +275,4 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+

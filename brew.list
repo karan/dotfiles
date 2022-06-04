@@ -5,8 +5,10 @@ bash
 bazel
 curl
 dep
+exiftool
 ffmpeg
 findutils
+gnu-tar
 gnu-time
 gnupg
 hopenpgp-tools
@@ -22,9 +24,10 @@ pinentry-mac
 python3
 rclone
 readline
+rsync
 ruby
 unrar
 watch
 wget
 ykman
-youtube-dl
+yt-dlp/taps/yt-dlp

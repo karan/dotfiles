@@ -29,5 +29,11 @@ brew upgrade
 # packages from `brew leaves`
 brew install $(< brew.list )
 
+# cask packages
+brew cask install docker
+brew cask install macdown
+brew cask install smcfancontrol
+brew cask install xquartz
+
 # Remove outdated versions from the cellar.
 brew cleanup
